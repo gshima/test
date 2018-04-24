@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?><ConsultarNfseFaixaResposta xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.abrasf.org.br/nfse.xsd"><ListaNfse><CompNfse><Nfse versao="2.02"><InfNfse Id="fullsing"><Numero>159</Numero><CodigoVerificacao>1B93F31FAF</CodigoVerificacao><DataEmissao>2018-03-02T15:19:14.356253</DataEmissao><ValoresNfse><BaseCalculo>69213.30</BaseCalculo><Aliquota>5.0000</Aliquota><ValorIss>3460.66</ValorIss><ValorLiquidoNfse>61184.56</ValorLiquidoNfse></ValoresNfse><PrestadorServico><IdentificacaoPrestador><CpfCnpj><Cnpj>71427389000102</Cnpj></CpfCnpj><InscricaoMunicipal>6289</InscricaoMunicipal></IdentificacaoPrestador><RazaoSocial>DEGRAUS ENGENHARIA E EMPREEND. IMOBILIARIOS LTDA</RazaoSocial><NomeFantasia>DEGRAUS ENGENHARIA E EMPREEND. IMOBILIARIOS LTDA</NomeFantasia><Endereco><Endereco>RUA ALBERTO SCHARLE</Endereco><Numero>300</Numero><Bairro>NOVO HORIZONTE</Bairro><CodigoMunicipio>3136207</CodigoMunicipio><Uf>MG</Uf><Cep>35930074</Cep></Endereco><Contato><Telefone>3138521111</Telefone><Email>financeiro@degraus.eng.br</Email></Contato></PrestadorServico><OrgaoGerador><CodigoMunicipio>3136207</CodigoMunicipio><Uf>MG</Uf></OrgaoGerador><DeclaracaoPrestacaoServico><InfDeclaracaoPrestacaoServico Id="singtag"><Competencia>2018-03-02</Competencia><Servico><Valores><ValorServicos>69213.30</ValorServicos><ValorInss>4568.08</ValorInss><ValorIss>3460.66</ValorIss><Aliquota>5.0000</Aliquota></Valores><IssRetido>1</IssRetido><ItemListaServico>7.02</ItemListaServico><CodigoCnae>4299599</CodigoCnae><CodigoTributacaoMunicipio>7.02</CodigoTributacaoMunicipio><Discriminacao>3º MEDIÇÃO DA PRESTAÇÃO DE SERVIÇO DE IMPLANTAÇÃO E MANUTENÇÃO DE PROJETOS DE RECUPERAÇÃO DE ÁREAS
+DEGRADADAS NO MUNICIPIO DE RESPLENDOR/MG.
+
+Nº RF: 6200649896
+Nº CONTRATO: 4400001012
+Nº PEDIDO/ ITEM: 4504207210/00070
+Nº FRS : 1002525427
+
+PERIDO DE MEDIÇÃO: 21/01/2018 A 20/02/2018
+
+60% MÃO DE OBRA : R$ 41.527,98
+20% MATERIAIS :  R$ 13.842,66
+20% EQUIPAMENTOS: R$ 13.842,66 
+
+BASE DE CALCULO PARA RETENÇÃO DE SEGURIDADE SOCIAL 11% SOBRE A MÃO DE OBRA
+</Discriminacao><CodigoMunicipio></CodigoMunicipio><ExigibilidadeISS>2</ExigibilidadeISS></Servico><Prestador><CpfCnpj><Cnpj>71427389000102</Cnpj></CpfCnpj><InscricaoMunicipal>6289</InscricaoMunicipal></Prestador><Tomador><IdentificacaoTomador><CpfCnpj><Cnpj>33592510031548</Cnpj></CpfCnpj></IdentificacaoTomador><RazaoSocial>VALE S. A </RazaoSocial><Endereco><Endereco>PC JOÃO PAULO PINHEIRO </Endereco><Numero>S/N</Numero><Bairro>CENTRO</Bairro><CodigoMunicipio>3127701</CodigoMunicipio><Uf>MG</Uf><Cep>35010330</Cep></Endereco><Contato><Telefone>3155032400</Telefone></Contato></Tomador><OptanteSimplesNacional>2</OptanteSimplesNacional><IncentivoFiscal>2</IncentivoFiscal></InfDeclaracaoPrestacaoServico></DeclaracaoPrestacaoServico></InfNfse></Nfse></CompNfse></ListaNfse></ConsultarNfseFaixaResposta>

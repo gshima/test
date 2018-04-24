@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CompNfse xmlns="http://www.abrasf.org.br/nfse.xsd" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#">
+    <Nfse versao="2.01">
+        <InfNfse Id="110265428IXOUMJ64WQKD6CKAA3HDVJR">
+            <Numero>1121</Numero>
+            <CodigoVerificacao>Y3OVLT89I</CodigoVerificacao>
+            <DataEmissao>2018-03-01T13:53:03</DataEmissao>
+            <OutrasInformacoes>Val. Aprox. Tributos:</OutrasInformacoes>
+            <ValoresNfse>
+                <BaseCalculo>68794.72</BaseCalculo>
+                <Aliquota>5.00</Aliquota>
+                <ValorIss>3439.74</ValorIss>
+                <ValorLiquidoNfse>54588.60</ValorLiquidoNfse>
+            </ValoresNfse>
+            <PrestadorServico>
+                <IdentificacaoPrestador>
+                    <CpfCnpj>
+                        <Cnpj>09074034000103</Cnpj>
+                    </CpfCnpj>
+                    <InscricaoMunicipal>2131400</InscricaoMunicipal>
+                </IdentificacaoPrestador>
+                <RazaoSocial>COMERCIO E PRESTACAO DE SERVICO AMORIM LTDA - EPP</RazaoSocial>
+                <NomeFantasia>FERRACO COMERCIO E PRESTACAO DE SERVICO</NomeFantasia>
+                <Endereco>
+                    <Endereco>RUA PERNAMBUCO</Endereco>
+                    <Numero>299</Numero>
+                    <Complemento></Complemento>
+                    <Bairro>GUARANI</Bairro>
+                    <CodigoMunicipio>5003207</CodigoMunicipio>
+                    <Uf>MS</Uf>
+                    <CodigoPais>1058</CodigoPais>
+                    <Cep>79321210</Cep>
+                </Endereco>
+                <Contato>
+                    <Telefone>6732310150</Telefone>
+                    <Email>goncalo@ferraco.ind.br</Email>
+                </Contato>
+            </PrestadorServico>
+            <OrgaoGerador>
+                <CodigoMunicipio>5003207</CodigoMunicipio>
+                <Uf>MS</Uf>
+            </OrgaoGerador>
+            <DeclaracaoPrestacaoServico>
+                <InfDeclaracaoPrestacaoServico>
+                    <Competencia>2018-03-01</Competencia>
+                    <Servico>
+                        <Valores>
+                            <ValorServicos>68794.72</ValorServicos>
+                            <ValorDeducoes>0.00</ValorDeducoes>
+                            <ValorPis>447.17</ValorPis>
+                            <ValorCofins>2063.84</ValorCofins>
+                            <ValorInss>7567.42</ValorInss>
+                            <ValorIr>0.00</ValorIr>
+                            <ValorCsll>687.95</ValorCsll>
+                            <OutrasRetencoes>0.00</OutrasRetencoes>
+                            <ValorIss>3439.74</ValorIss>
+                            <Aliquota>5.00</Aliquota>
+                            <DescontoIncondicionado>0.00</DescontoIncondicionado>
+                            <DescontoCondicionado>0.00</DescontoCondicionado>
+                        </Valores>
+                        <IssRetido>1</IssRetido>
+                        <ResponsavelRetencao>1</ResponsavelRetencao>
+                        <ItemListaServico>14.05</ItemListaServico>
+                        <CodigoCnae>2539001</CodigoCnae>
+                        <CodigoTributacaoMunicipio>0000140000005</CodigoTributacaoMunicipio>
+                        <Discriminacao>PRESTAÇÃO DE SERVIÇO DE REPARO DE PEÇAS E COMPONENTES -68.794,72 </Discriminacao>
+                        <CodigoMunicipio>5003207</CodigoMunicipio>
+                        <ExigibilidadeISS>1</ExigibilidadeISS>
+                        <MunicipioIncidencia>5003207</MunicipioIncidencia>
+                    </Servico>
+                    <Prestador>
+                        <CpfCnpj>
+                            <Cnpj>09074034000103</Cnpj>
+                        </CpfCnpj>
+                        <InscricaoMunicipal>002131400</InscricaoMunicipal>
+                    </Prestador>
+                    <Tomador>
+                        <IdentificacaoTomador>
+                            <CpfCnpj>
+<Cnpj>03327988000196</Cnpj>
+                            </CpfCnpj>
+                            <InscricaoMunicipal>0071401</InscricaoMunicipal>
+                        </IdentificacaoTomador>
+                        <RazaoSocial>MINERACAO CORUMBAENSE REUNIDA S/A</RazaoSocial>
+                        <Endereco>
+                            <Endereco>ROD. MORRO DO URUCUM</Endereco>
+                            <Numero>S/N</Numero>
+                            <Complemento></Complemento>
+                            <Bairro>ZONA RURAL</Bairro>
+                            <CodigoMunicipio>5003207</CodigoMunicipio>
+                            <Uf>MS</Uf>
+                            <Cep>79301970</Cep>
+                        </Endereco>
+                        <Contato>
+                            <Telefone>6732342340</Telefone>
+                            <Email>nfe.servico@vale.com</Email>
+                        </Contato>
+                    </Tomador>
+                    <RegimeEspecialTributacao>0</RegimeEspecialTributacao>
+                    <OptanteSimplesNacional>2</OptanteSimplesNacional>
+                    <IncentivoFiscal>2</IncentivoFiscal>
+                </InfDeclaracaoPrestacaoServico>
+            </DeclaracaoPrestacaoServico>
+        </InfNfse>
+    </Nfse>
+</CompNfse>

@@ -1,0 +1,119 @@
+<nfse xmlns="http://www.ctaconsult.com/nfse" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <codigoMunicipio>921</codigoMunicipio>
+  <dtEmissao>2018-03-01T15:25:17</dtEmissao>
+  <numeroNota>0003144</numeroNota>
+  <codigoVerificacao>AA35950746544F8EB26E391053DD4394</codigoVerificacao>
+  <prestador>
+    <tipoPessoa>2</tipoPessoa>
+    <cnpj>02277320000119</cnpj>
+    <inscricaoMunicipal>8147000</inscricaoMunicipal>
+    <razaoSocial>EBES ENGENHARIA LTDA</razaoSocial>
+    <endereco>
+      <logradouro>AV DOS HOLANDESES 2 SALA 912A M B INTE OFICE</logradouro>
+      <bairro>CALHAU</bairro>
+      <cep>65071380</cep>
+      <codigoMunipio>921</codigoMunipio>
+      <descricaoMunicipio>SAO LUIS</descricaoMunicipio>
+      <codigoEstado>MA</codigoEstado>
+      <descricaoEstado>MA</descricaoEstado>
+    </endereco>
+    <email>ebes_eng@uol.com.br</email>
+    <telefoneDdd>98</telefoneDdd>
+    <telefoneNumero>32354035</telefoneNumero>
+  </prestador>
+  <tomador>
+    <tipoPessoa>2</tipoPessoa>
+    <cnpj>33592510037821</cnpj>
+    <inscricaoMunicipal>13799016</inscricaoMunicipal>
+    <razaoSocial>VALE S. A.</razaoSocial>
+    <endereco>
+      <logradouro>AV DOS PORTUGUESES 0</logradouro>
+      <bairro>ITAQUI</bairro>
+      <cep>65000000</cep>
+      <codigoMunipio>921</codigoMunipio>
+      <descricaoMunicipio>SAO LUIS</descricaoMunicipio>
+      <codigoEstado>MA</codigoEstado>
+      <descricaoEstado>MA</descricaoEstado>
+    </endereco>
+    <telefoneDdd>98</telefoneDdd>
+    <telefoneNumero>32184000</telefoneNumero>
+  </tomador>
+  <atividadeExecutada>
+    <codigoServico>1104</codigoServico>
+    <descricaoServico>ARMAZENAMENTO, DEPOSITO, CARGA, DESCARGA, ARRUMACAO E GUARDA DE BENS DE QUALQUER ESPECIE.</descricaoServico>
+    <codigoAtividade>493020100</codigoAtividade>
+    <descricaoAtividade>TRANSPORTE RODOVIARIO DE CARGA, EXCETO PRODUTOS PERIGOSOS E MUDANCAS, MUNICIPAL</descricaoAtividade>
+    <localPrestacao>
+      <codigoEstado>MA</codigoEstado>
+      <descricaoEstado>MA</descricaoEstado>
+      <codigoMunipio>951</codigoMunipio>
+      <descricaoMunicipio>VITORIA DO MEARIM</descricaoMunicipio>
+    </localPrestacao>
+    <tipoTributacao>NÃO INCIDENTE NO MUNICÍPIO</tipoTributacao>
+    <tipoRecolhimento>RETIDO</tipoRecolhimento>
+    <aliquota>5.00</aliquota>
+  </atividadeExecutada>
+  <detalhamentoNota>
+    <descricaoNota>SERVIÇOS DE APOIO ÀS EQUIPES DE MANUTENÇÃO DA VIA PERMANENTE COM UTILIZAÇÃO DE CAMINHÃO EQUIPADO COM GUINDASTE E EMPILHADEIRA (COM E SEM EQUIPE DE APOIO), PARA TRANSPORTE, MANUSEIO E IÇAMENTO DE MÁQUINAS, FERRAMENTAS E MATERIAIS, EM VITÓRIA DO MEARIM – MA 
+
+CONTRATO N° 5900033859 
+RF: 6200649028 / PEDIDO: 4504210007 / FRS: 1002526993
+ESTRATIFICAÇÃO DOS VALORES
+MÃO-DE-OBRA= R$ 17.564,35 (31,8182%) / EQUIPAMENTOS E INSUMOS MATERIAIS = R$ 37.637,85 (68.1818%)
+CONTRIBUIÇÃO PREVIDÊNCIA SOCIAL/INSS - R$ 17.564,35 X 11% = R$ 1.932,08
+</descricaoNota>
+    <itensServico>
+      <item nItem="1">
+        <tributavel>TRIBUTÁVEL</tributavel>
+        <descricao>SERVIÇOS REALIZADOS NO PERÍODO DE 21.01.18 À 20.02.18</descricao>
+        <quantidade>1.0000</quantidade>
+        <valorUnitario>55202.20</valorUnitario>
+        <valorTotal>55202.20</valorTotal>
+      </item>
+    </itensServico>
+    <totais>
+      <valotTotalNota>55202.20</valotTotalNota>
+      <valorTotalServico>55202.20</valorTotalServico>
+      <valorTotalDeducao>0.00</valorTotalDeducao>
+      <valorTotalISS>2760.11</valorTotalISS>
+      <valorReducaoBC>0.00</valorReducaoBC>
+    </totais>
+    <impostosFederais>
+      <imposto nItem="1">
+        <codigoImposto>1</codigoImposto>
+        <descricaoImposto>PIS</descricaoImposto>
+        <tipo>1</tipo>
+        <aliquota>0.6500</aliquota>
+        <valorImposto>0.00</valorImposto>
+      </imposto>
+      <imposto nItem="2">
+        <codigoImposto>2</codigoImposto>
+        <descricaoImposto>COFINS</descricaoImposto>
+        <tipo>2</tipo>
+        <aliquota>3.0000</aliquota>
+        <valorImposto>0.00</valorImposto>
+      </imposto>
+      <imposto nItem="3">
+        <codigoImposto>3</codigoImposto>
+        <descricaoImposto>INSS</descricaoImposto>
+        <tipo>3</tipo>
+        <aliquota>11.0000</aliquota>
+        <valorImposto>1932.08</valorImposto>
+      </imposto>
+      <imposto nItem="4">
+        <codigoImposto>4</codigoImposto>
+        <descricaoImposto>IR</descricaoImposto>
+        <tipo>4</tipo>
+        <aliquota>1.0000</aliquota>
+        <valorImposto>0.00</valorImposto>
+      </imposto>
+      <imposto nItem="5">
+        <codigoImposto>5</codigoImposto>
+        <descricaoImposto>CSLL</descricaoImposto>
+        <tipo>5</tipo>
+        <aliquota>1.0000</aliquota>
+        <valorImposto>0.00</valorImposto>
+      </imposto>
+    </impostosFederais>
+  </detalhamentoNota>
+</nfse>

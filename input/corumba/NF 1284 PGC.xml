@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CompNfse xmlns="http://www.abrasf.org.br/nfse.xsd" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#">
+    <Nfse versao="2.01">
+        <InfNfse Id="110274121QI1XS81QVK509LLEJPF2BQ4">
+            <Numero>1284</Numero>
+            <CodigoVerificacao>UC36SPMIU</CodigoVerificacao>
+            <DataEmissao>2018-03-02T15:17:23</DataEmissao>
+            <OutrasInformacoes>Val. Aprox. Tributos:</OutrasInformacoes>
+            <ValoresNfse>
+                <BaseCalculo>21741.35</BaseCalculo>
+                <Aliquota>5.00</Aliquota>
+                <ValorIss>1087.07</ValorIss>
+                <ValorLiquidoNfse>18719.46</ValorLiquidoNfse>
+            </ValoresNfse>
+            <PrestadorServico>
+                <IdentificacaoPrestador>
+                    <CpfCnpj>
+                        <Cnpj>04236152000149</Cnpj>
+                    </CpfCnpj>
+                    <InscricaoMunicipal>1837800</InscricaoMunicipal>
+                </IdentificacaoPrestador>
+                <RazaoSocial>SANEAR ENGENHARIA E PROJETOS LTDA - EPP</RazaoSocial>
+                <NomeFantasia>SANEAR ENGENHARIA E PROJETOS LTDA</NomeFantasia>
+                <Endereco>
+                    <Endereco>  PORTO CARRERO</Endereco>
+                    <Numero>370</Numero>
+                    <Complemento></Complemento>
+                    <Bairro>CENTRO</Bairro>
+                    <CodigoMunicipio>5003207</CodigoMunicipio>
+                    <Uf>MS</Uf>
+                    <CodigoPais>1058</CodigoPais>
+                    <Cep>79303270</Cep>
+                </Endereco>
+                <Contato>
+                    <Telefone>0672317344</Telefone>
+                    <Email></Email>
+                </Contato>
+            </PrestadorServico>
+            <OrgaoGerador>
+                <CodigoMunicipio>5003207</CodigoMunicipio>
+                <Uf>MS</Uf>
+            </OrgaoGerador>
+            <DeclaracaoPrestacaoServico>
+                <InfDeclaracaoPrestacaoServico>
+                    <Competencia>2018-03-02</Competencia>
+                    <Servico>
+                        <Valores>
+                            <ValorServicos>21741.35</ValorServicos>
+                            <ValorDeducoes>0.00</ValorDeducoes>
+                            <ValorPis>141.32</ValorPis>
+                            <ValorCofins>652.24</ValorCofins>
+                            <ValorInss>706.44</ValorInss>
+                            <ValorIr>217.41</ValorIr>
+                            <ValorCsll>217.41</ValorCsll>
+                            <OutrasRetencoes>0.00</OutrasRetencoes>
+                            <ValorIss>1087.07</ValorIss>
+                            <Aliquota>5.00</Aliquota>
+                            <DescontoIncondicionado>0.00</DescontoIncondicionado>
+                            <DescontoCondicionado>0.00</DescontoCondicionado>
+                        </Valores>
+                        <IssRetido>1</IssRetido>
+                        <ResponsavelRetencao>1</ResponsavelRetencao>
+                        <ItemListaServico>07.09</ItemListaServico>
+                        <CodigoCnae>3811400</CodigoCnae>
+                        <CodigoTributacaoMunicipio>0000070000009</CodigoTributacaoMunicipio>
+                        <Discriminacao>Serviço de coleta e destinação de efluentes sanitários - TPGC-3.992,94 | Prestação de serviço de Operação dos Sistemas de Tratamento de água e efluentes sanitários e oleosos - TPGC-17.748,41 </Discriminacao>
+                        <CodigoMunicipio>5003207</CodigoMunicipio>
+                        <ExigibilidadeISS>1</ExigibilidadeISS>
+                        <MunicipioIncidencia>5003207</MunicipioIncidencia>
+                    </Servico>
+                    <Prestador>
+                        <CpfCnpj>
+                            <Cnpj>04236152000149</Cnpj>
+                        </CpfCnpj>
+                        <InscricaoMunicipal>001837800</InscricaoMunicipal>
+                    </Prestador>
+                    <Tomador>
+                        <IdentificacaoTomador>
+                            <CpfCnpj>
+<Cnpj>03327988000358</Cnpj>
+                            </CpfCnpj>
+                            <InscricaoMunicipal>71402</InscricaoMunicipal>
+                        </IdentificacaoTomador>
+                        <RazaoSocial>MINERACAO CORUMBAENSE REUNIDA S/A</RazaoSocial>
+                        <Endereco>
+                            <Endereco>LOG PORTO GREGORIO CURVO</Endereco>
+                            <Numero>S/Nº</Numero>
+                            <Complemento></Complemento>
+                            <Bairro>PORTO ESPERANÇA</Bairro>
+                            <CodigoMunicipio>5003207</CodigoMunicipio>
+                            <Uf>MS</Uf>
+                            <Cep>79321600</Cep>
+                        </Endereco>
+                        <Contato>
+                            <Telefone>6732342340</Telefone>
+                            <Email>suzana.viana@vale.com</Email>
+                        </Contato>
+                    </Tomador>
+                    <RegimeEspecialTributacao>0</RegimeEspecialTributacao>
+                    <OptanteSimplesNacional>2</OptanteSimplesNacional>
+                    <IncentivoFiscal>2</IncentivoFiscal>
+                </InfDeclaracaoPrestacaoServico>
+            </DeclaracaoPrestacaoServico>
+        </InfNfse>
+    </Nfse>
+</CompNfse>

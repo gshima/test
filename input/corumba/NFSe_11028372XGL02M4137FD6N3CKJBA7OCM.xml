@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CompNfse xmlns="http://www.abrasf.org.br/nfse.xsd" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#">
+    <Nfse versao="2.01">
+        <InfNfse Id="11028372XGL02M4137FD6N3CKJBA7OCM">
+            <Numero>567</Numero>
+            <CodigoVerificacao>6CF6H697Q</CodigoVerificacao>
+            <DataEmissao>2018-03-05T16:03:14</DataEmissao>
+            <OutrasInformacoes>Val. Aprox. Tributos: Federal (0,00%) R$0,00 Estadual (0,00%) R$0,00 Municipal (0,00%) R$0,00</OutrasInformacoes>
+            <ValoresNfse>
+                <BaseCalculo>10200.00</BaseCalculo>
+                <Aliquota>5.00</Aliquota>
+                <ValorIss>510.00</ValorIss>
+                <ValorLiquidoNfse>9353.40</ValorLiquidoNfse>
+            </ValoresNfse>
+            <PrestadorServico>
+                <IdentificacaoPrestador>
+                    <CpfCnpj>
+                        <Cnpj>76476050001850</Cnpj>
+                    </CpfCnpj>
+                    <InscricaoMunicipal>1615600</InscricaoMunicipal>
+                </IdentificacaoPrestador>
+                <RazaoSocial>F ANDREIS &amp; CIA LTDA</RazaoSocial>
+                <NomeFantasia>***************</NomeFantasia>
+                <Endereco>
+                    <Endereco>  BR 262</Endereco>
+                    <Numero>0</Numero>
+                    <Complemento>P. MORRINHO, KM 72DA BR</Complemento>
+                    <Bairro>ZONA RURAL</Bairro>
+                    <CodigoMunicipio>5003207</CodigoMunicipio>
+                    <Uf>MS</Uf>
+                    <CodigoPais>1058</CodigoPais>
+                    <Cep>79301970</Cep>
+                </Endereco>
+                <Contato>
+                    <Telefone>6732316832</Telefone>
+                    <Email></Email>
+                </Contato>
+            </PrestadorServico>
+            <OrgaoGerador>
+                <CodigoMunicipio>5003207</CodigoMunicipio>
+                <Uf>MS</Uf>
+            </OrgaoGerador>
+            <DeclaracaoPrestacaoServico>
+                <InfDeclaracaoPrestacaoServico>
+                    <Competencia>2018-03-05</Competencia>
+                    <Servico>
+                        <Valores>
+                            <ValorServicos>10200.00</ValorServicos>
+                            <ValorDeducoes>0.00</ValorDeducoes>
+                            <ValorPis>0.00</ValorPis>
+                            <ValorCofins>0.00</ValorCofins>
+                            <ValorInss>336.60</ValorInss>
+                            <ValorIr>0.00</ValorIr>
+                            <ValorCsll>0.00</ValorCsll>
+                            <OutrasRetencoes>0.00</OutrasRetencoes>
+                            <ValorIss>510.00</ValorIss>
+                            <Aliquota>5.00</Aliquota>
+                            <DescontoIncondicionado>0.00</DescontoIncondicionado>
+                            <DescontoCondicionado>0.00</DescontoCondicionado>
+                        </Valores>
+                        <IssRetido>1</IssRetido>
+                        <ResponsavelRetencao>1</ResponsavelRetencao>
+                        <ItemListaServico>16.01</ItemListaServico>
+                        <CodigoTributacaoMunicipio>0000160000001</CodigoTributacaoMunicipio>
+                        <Discriminacao>TRANSPORTE POR BALSA-10.200,00 </Discriminacao>
+                        <CodigoMunicipio>5003207</CodigoMunicipio>
+                        <ExigibilidadeISS>1</ExigibilidadeISS>
+                        <MunicipioIncidencia>5003207</MunicipioIncidencia>
+                    </Servico>
+                    <Prestador>
+                        <CpfCnpj>
+                            <Cnpj>76476050001850</Cnpj>
+                        </CpfCnpj>
+                        <InscricaoMunicipal>001615600</InscricaoMunicipal>
+                    </Prestador>
+                    <Tomador>
+                        <IdentificacaoTomador>
+                            <CpfCnpj>
+<Cnpj>03327988000358</Cnpj>
+                            </CpfCnpj>
+                            <InscricaoMunicipal>71402</InscricaoMunicipal>
+                        </IdentificacaoTomador>
+                        <RazaoSocial>MINERACAO CORUMBAENSE REUNIDA S/A</RazaoSocial>
+                        <Endereco>
+                            <Endereco>LOG PORTO GREGORIO CURVO</Endereco>
+                            <Numero>S/Nº</Numero>
+                            <Complemento></Complemento>
+                            <Bairro>PORTO ESPERANÇA</Bairro>
+                            <CodigoMunicipio>5003207</CodigoMunicipio>
+                            <Uf>MS</Uf>
+                            <Cep>79321600</Cep>
+                        </Endereco>
+                        <Contato>
+                            <Telefone>6732342340</Telefone>
+                            <Email>suzana.viana@vale.com</Email>
+                        </Contato>
+                    </Tomador>
+                    <RegimeEspecialTributacao>0</RegimeEspecialTributacao>
+                    <OptanteSimplesNacional>2</OptanteSimplesNacional>
+                    <IncentivoFiscal>2</IncentivoFiscal>
+                </InfDeclaracaoPrestacaoServico>
+            </DeclaracaoPrestacaoServico>
+        </InfNfse>
+    </Nfse>
+</CompNfse>

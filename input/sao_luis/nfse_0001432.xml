@@ -1,0 +1,129 @@
+<nfse xmlns="http://www.ctaconsult.com/nfse" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <codigoMunicipio>921</codigoMunicipio>
+  <dtEmissao>2018-03-02T16:41:58</dtEmissao>
+  <numeroNota>0001432</numeroNota>
+  <codigoVerificacao>E165D8EC77029DDB089F8AE71941174B</codigoVerificacao>
+  <prestador>
+    <tipoPessoa>2</tipoPessoa>
+    <cnpj>29067113033604</cnpj>
+    <inscricaoMunicipal>98219914</inscricaoMunicipal>
+    <razaoSocial>POLIMIX CONCRETO LTDA</razaoSocial>
+    <endereco>
+      <logradouro>AV  DOS PORTUGUESES 400</logradouro>
+      <bairro>ANJO DA GUARDA</bairro>
+      <cep>65085581</cep>
+      <codigoMunipio>921</codigoMunipio>
+      <descricaoMunicipio>SAO LUIS</descricaoMunicipio>
+      <codigoEstado>MA</codigoEstado>
+      <descricaoEstado>MA</descricaoEstado>
+    </endereco>
+    <email>am-contabil@hotmail.com</email>
+    <telefoneDdd>98</telefoneDdd>
+    <telefoneNumero>26082651</telefoneNumero>
+  </prestador>
+  <tomador>
+    <tipoPessoa>2</tipoPessoa>
+    <cnpj>33592510037821</cnpj>
+    <inscricaoMunicipal>13799016</inscricaoMunicipal>
+    <razaoSocial>VALE S. A.</razaoSocial>
+    <endereco>
+      <logradouro>AV DOS PORTUGUESES 0</logradouro>
+      <bairro>ITAQUI</bairro>
+      <cep>65000000</cep>
+      <codigoMunipio>921</codigoMunipio>
+      <descricaoMunicipio>SAO LUIS</descricaoMunicipio>
+      <codigoEstado>MA</codigoEstado>
+      <descricaoEstado>MA</descricaoEstado>
+    </endereco>
+    <telefoneDdd>98</telefoneDdd>
+    <telefoneNumero>32722139</telefoneNumero>
+  </tomador>
+  <atividadeExecutada>
+    <codigoServico>0702</codigoServico>
+    <descricaoServico>EXECUCAO, POR ADMINISTRACAO, EMPREITADA OU SUBEMPREITADA, DE OBRAS DE CONSTRUCAO CIVIL, HIDRAULICA OU ELETRICA E DE OUTRAS OBRAS SEMELHANTES, INCLUSIVE SONDAGEM, PERFURACAO DE POCOS, ESCAVACAO, DRENAGEM E IRRIGACAO, TERRAPLANAGEM, PAVIMENTACAO, CONCRETAGEM E A INSTALACAO E MONTAGEM DE PRODUTOS, PECAS E EQUIPAMENTOS (EXCETO O FORNECIMENTO DE MERCADORIAS PRODUZIDAS PELO PRESTADOR DE SERVICOS FORA DO LOCAL DA PRESTACAO DOS SERVICOS, QUE FICA SUJEITO AO ICMS.</descricaoServico>
+    <codigoAtividade>439919900</codigoAtividade>
+    <descricaoAtividade>SERVICOS ESPECIALIZADOS PARA CONSTRUCAO NAO ESPECIFICADOS ANTERIORMENTE</descricaoAtividade>
+    <localPrestacao>
+      <codigoEstado>MA</codigoEstado>
+      <descricaoEstado>MA</descricaoEstado>
+      <codigoMunipio>921</codigoMunipio>
+      <descricaoMunicipio>SAO LUIS</descricaoMunicipio>
+    </localPrestacao>
+    <tipoTributacao>TRIBUTÁVEL</tipoTributacao>
+    <tipoRecolhimento>RETIDO</tipoRecolhimento>
+    <aliquota>5.00</aliquota>
+  </atividadeExecutada>
+  <deducoes>
+    <tipo>5</tipo>
+    <mapa>
+      <itemMapa nItem="1">
+        <tipoPessoa>2</tipoPessoa>
+        <cnpj>29067113033604</cnpj>
+        <numeroNota>1432</numeroNota>
+        <valorNota>38080.00</valorNota>
+        <valorDecucao>15232.00</valorDecucao>
+      </itemMapa>
+    </mapa>
+        <valor>15232.00</valor>
+  </deducoes>
+  <detalhamentoNota>
+    <descricaoNota>OBRA VALE S/A - SAO LUIS MA
+CONTRATO:5900045137
+NºRF6200650571
+NºPEDIDO/ITEM:4504215871/00020
+NºFRS:1002530084</descricaoNota>
+    <itensServico>
+      <item nItem="1">
+        <tributavel>TRIBUTÁVEL</tributavel>
+        <descricao>PRESTAÇÃO DE SERVIÇOS DE CONCRETAGEM</descricao>
+        <quantidade>1.0000</quantidade>
+        <valorUnitario>38080.00</valorUnitario>
+        <valorTotal>38080.00</valorTotal>
+      </item>
+    </itensServico>
+    <totais>
+      <valotTotalNota>38080.00</valotTotalNota>
+      <valorTotalServico>22848.00</valorTotalServico>
+      <valorTotalDeducao>15232.00</valorTotalDeducao>
+      <valorTotalISS>1142.40</valorTotalISS>
+      <valorReducaoBC>0.00</valorReducaoBC>
+    </totais>
+    <impostosFederais>
+      <imposto nItem="1">
+        <codigoImposto>1</codigoImposto>
+        <descricaoImposto>PIS</descricaoImposto>
+        <tipo>1</tipo>
+        <aliquota>0.0000</aliquota>
+        <valorImposto>0.00</valorImposto>
+      </imposto>
+      <imposto nItem="2">
+        <codigoImposto>2</codigoImposto>
+        <descricaoImposto>COFINS</descricaoImposto>
+        <tipo>2</tipo>
+        <aliquota>0.0000</aliquota>
+        <valorImposto>0.00</valorImposto>
+      </imposto>
+      <imposto nItem="3">
+        <codigoImposto>3</codigoImposto>
+        <descricaoImposto>INSS</descricaoImposto>
+        <tipo>3</tipo>
+        <aliquota>0.0000</aliquota>
+        <valorImposto>0.00</valorImposto>
+      </imposto>
+      <imposto nItem="4">
+        <codigoImposto>4</codigoImposto>
+        <descricaoImposto>IR</descricaoImposto>
+        <tipo>4</tipo>
+        <aliquota>0.0000</aliquota>
+        <valorImposto>0.00</valorImposto>
+      </imposto>
+      <imposto nItem="5">
+        <codigoImposto>5</codigoImposto>
+        <descricaoImposto>CSLL</descricaoImposto>
+        <tipo>5</tipo>
+        <aliquota>0.0000</aliquota>
+        <valorImposto>0.00</valorImposto>
+      </imposto>
+    </impostosFederais>
+  </detalhamentoNota>
+</nfse>

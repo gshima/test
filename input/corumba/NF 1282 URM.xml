@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CompNfse xmlns="http://www.abrasf.org.br/nfse.xsd" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#">
+    <Nfse versao="2.01">
+        <InfNfse Id="110273798NRM60DCU9G41FUB4ADRIM2C">
+            <Numero>1282</Numero>
+            <CodigoVerificacao>S742ZGO7D</CodigoVerificacao>
+            <DataEmissao>2018-03-02T14:35:00</DataEmissao>
+            <OutrasInformacoes>Val. Aprox. Tributos:</OutrasInformacoes>
+            <ValoresNfse>
+                <BaseCalculo>98279.21</BaseCalculo>
+                <Aliquota>5.00</Aliquota>
+                <ValorIss>4913.96</ValorIss>
+                <ValorLiquidoNfse>84169.53</ValorLiquidoNfse>
+            </ValoresNfse>
+            <PrestadorServico>
+                <IdentificacaoPrestador>
+                    <CpfCnpj>
+                        <Cnpj>04236152000149</Cnpj>
+                    </CpfCnpj>
+                    <InscricaoMunicipal>1837800</InscricaoMunicipal>
+                </IdentificacaoPrestador>
+                <RazaoSocial>SANEAR ENGENHARIA E PROJETOS LTDA - EPP</RazaoSocial>
+                <NomeFantasia>SANEAR ENGENHARIA E PROJETOS LTDA</NomeFantasia>
+                <Endereco>
+                    <Endereco>  PORTO CARRERO</Endereco>
+                    <Numero>370</Numero>
+                    <Complemento></Complemento>
+                    <Bairro>CENTRO</Bairro>
+                    <CodigoMunicipio>5003207</CodigoMunicipio>
+                    <Uf>MS</Uf>
+                    <CodigoPais>1058</CodigoPais>
+                    <Cep>79303270</Cep>
+                </Endereco>
+                <Contato>
+                    <Telefone>0672317344</Telefone>
+                    <Email></Email>
+                </Contato>
+            </PrestadorServico>
+            <OrgaoGerador>
+                <CodigoMunicipio>5003207</CodigoMunicipio>
+                <Uf>MS</Uf>
+            </OrgaoGerador>
+            <DeclaracaoPrestacaoServico>
+                <InfDeclaracaoPrestacaoServico>
+                    <Competencia>2018-03-02</Competencia>
+                    <Servico>
+                        <Valores>
+                            <ValorServicos>98279.21</ValorServicos>
+                            <ValorDeducoes>0.00</ValorDeducoes>
+                            <ValorPis>638.81</ValorPis>
+                            <ValorCofins>2948.38</ValorCofins>
+                            <ValorInss>3642.95</ValorInss>
+                            <ValorIr>982.79</ValorIr>
+                            <ValorCsll>982.79</ValorCsll>
+                            <OutrasRetencoes>0.00</OutrasRetencoes>
+                            <ValorIss>4913.96</ValorIss>
+                            <Aliquota>5.00</Aliquota>
+                            <DescontoIncondicionado>0.00</DescontoIncondicionado>
+                            <DescontoCondicionado>0.00</DescontoCondicionado>
+                        </Valores>
+                        <IssRetido>1</IssRetido>
+                        <ResponsavelRetencao>1</ResponsavelRetencao>
+                        <ItemListaServico>07.09</ItemListaServico>
+                        <CodigoCnae>3811400</CodigoCnae>
+                        <CodigoTributacaoMunicipio>0000070000009</CodigoTributacaoMunicipio>
+                        <Discriminacao>Serviço de coleta e destinação de efluentes sanitários - Mina Urucum-16.761,60 | Prestação de serviço de Operação dos Sistemas de Tratamento de água e efluentes sanitários e oleosos - Mina Urucum-19.284,20 | Prestação de serviço de Operação e Manutenção dos Depósitos de Resíduos Sólidos e Compostagem de Resíduos Orgânicos - Mina Urucum-39.873,85 | Prestação de Serviço de Operação (1° TAC)-7.685,40 | Serviços de higienização de banheiros quimicos-870,06 | Serviços de fornecimento e higienização de banheiros quimicos-13.804,10 </Discriminacao>
+                        <CodigoMunicipio>5003207</CodigoMunicipio>
+                        <ExigibilidadeISS>1</ExigibilidadeISS>
+                        <MunicipioIncidencia>5003207</MunicipioIncidencia>
+                    </Servico>
+                    <Prestador>
+                        <CpfCnpj>
+                            <Cnpj>04236152000149</Cnpj>
+                        </CpfCnpj>
+                        <InscricaoMunicipal>001837800</InscricaoMunicipal>
+                    </Prestador>
+                    <Tomador>
+                        <IdentificacaoTomador>
+                            <CpfCnpj>
+<Cnpj>03327988000196</Cnpj>
+                            </CpfCnpj>
+                            <InscricaoMunicipal>0071401</InscricaoMunicipal>
+                        </IdentificacaoTomador>
+                        <RazaoSocial>MINERACAO CORUMBAENSE REUNIDA S/A</RazaoSocial>
+                        <Endereco>
+                            <Endereco>ROD. MORRO DO URUCUM</Endereco>
+                            <Numero>S/N</Numero>
+                            <Complemento></Complemento>
+                            <Bairro>ZONA RURAL</Bairro>
+                            <CodigoMunicipio>5003207</CodigoMunicipio>
+                            <Uf>MS</Uf>
+                            <Cep>79301970</Cep>
+                        </Endereco>
+                        <Contato>
+                            <Telefone>6732342340</Telefone>
+                            <Email>nfe.servico@vale.com</Email>
+                        </Contato>
+                    </Tomador>
+                    <RegimeEspecialTributacao>0</RegimeEspecialTributacao>
+                    <OptanteSimplesNacional>2</OptanteSimplesNacional>
+                    <IncentivoFiscal>2</IncentivoFiscal>
+                </InfDeclaracaoPrestacaoServico>
+            </DeclaracaoPrestacaoServico>
+        </InfNfse>
+    </Nfse>
+</CompNfse>

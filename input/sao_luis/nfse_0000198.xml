@@ -1,0 +1,227 @@
+<nfse xmlns="http://www.ctaconsult.com/nfse" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <codigoMunicipio>921</codigoMunicipio>
+  <dtEmissao>2018-03-02T14:44:14</dtEmissao>
+  <numeroNota>0000198</numeroNota>
+  <codigoVerificacao>CBEAA149BD9BCA6BF332BBD7D30D0AB0</codigoVerificacao>
+  <prestador>
+    <tipoPessoa>2</tipoPessoa>
+    <cnpj>02903346000125</cnpj>
+    <inscricaoMunicipal>29315000</inscricaoMunicipal>
+    <razaoSocial>PRO-SERVICE CONSTRUCAO E MONTAGEM LTDA</razaoSocial>
+    <endereco>
+      <logradouro>AV ENGENHEIRO EMILIANO MACIEIRA 106 KM:17;</logradouro>
+      <bairro>ESTIVA</bairro>
+      <cep>65095604</cep>
+      <codigoMunipio>921</codigoMunipio>
+      <descricaoMunicipio>SAO LUIS</descricaoMunicipio>
+      <codigoEstado>MA</codigoEstado>
+      <descricaoEstado>MA</descricaoEstado>
+    </endereco>
+    <email>contabilidade@proservicema.com.br</email>
+    <telefoneDdd>98</telefoneDdd>
+    <telefoneNumero>84142983</telefoneNumero>
+  </prestador>
+  <tomador>
+    <tipoPessoa>2</tipoPessoa>
+    <cnpj>33592510042400</cnpj>
+    <inscricaoMunicipal>13799008</inscricaoMunicipal>
+    <razaoSocial>VALE S. A.</razaoSocial>
+    <endereco>
+      <logradouro>AV DOS PORTUGUESES 0</logradouro>
+      <bairro>ITAQUI</bairro>
+      <cep>65085582</cep>
+      <codigoMunipio>921</codigoMunipio>
+      <descricaoMunicipio>SAO LUIS</descricaoMunicipio>
+      <codigoEstado>MA</codigoEstado>
+      <descricaoEstado>MA</descricaoEstado>
+    </endereco>
+    <telefoneDdd>98</telefoneDdd>
+    <telefoneNumero>32184475</telefoneNumero>
+  </tomador>
+  <atividadeExecutada>
+    <codigoServico>0702</codigoServico>
+    <descricaoServico>EXECUCAO, POR ADMINISTRACAO, EMPREITADA OU SUBEMPREITADA, DE OBRAS DE CONSTRUCAO CIVIL, HIDRAULICA OU ELETRICA E DE OUTRAS OBRAS SEMELHANTES, INCLUSIVE SONDAGEM, PERFURACAO DE POCOS, ESCAVACAO, DRENAGEM E IRRIGACAO, TERRAPLANAGEM, PAVIMENTACAO, CONCRETAGEM E A INSTALACAO E MONTAGEM DE PRODUTOS, PECAS E EQUIPAMENTOS (EXCETO O FORNECIMENTO DE MERCADORIAS PRODUZIDAS PELO PRESTADOR DE SERVICOS FORA DO LOCAL DA PRESTACAO DOS SERVICOS, QUE FICA SUJEITO AO ICMS.</descricaoServico>
+    <codigoAtividade>439919900</codigoAtividade>
+    <descricaoAtividade>SERVICOS ESPECIALIZADOS PARA CONSTRUCAO NAO ESPECIFICADOS ANTERIORMENTE</descricaoAtividade>
+    <localPrestacao>
+      <codigoEstado>MA</codigoEstado>
+      <descricaoEstado>MA</descricaoEstado>
+      <codigoMunipio>921</codigoMunipio>
+      <descricaoMunicipio>SAO LUIS</descricaoMunicipio>
+    </localPrestacao>
+    <tipoTributacao>TRIBUTÁVEL</tipoTributacao>
+    <tipoRecolhimento>RETIDO</tipoRecolhimento>
+    <aliquota>5.00</aliquota>
+  </atividadeExecutada>
+  <deducoes>
+    <tipo>5</tipo>
+    <mapa>
+      <itemMapa nItem="1">
+        <valorDecucao>145095.49</valorDecucao>
+      </itemMapa>
+    </mapa>
+        <percentual>40.00</percentual>
+        <valor>145095.49</valor>
+  </deducoes>
+  <detalhamentoNota>
+    <descricaoNota>PEDIDO DE COMPRA Nº 4504204818/00010 - OBS1: CONTRATO Nº 5900039491 - FRS Nº 1002523811 - RF Nº 6200646382 - OBS2: BASE DE CALCULO P/DEDUÇÃO 11% INSS(50%)...R$ 19.950,63 - OBS3: SERVIÇOS PRESTADOS NO GALPÃO DA PRO-SERVICE EM SAO LUIS - MA.</descricaoNota>
+    <itensServico>
+      <item nItem="1">
+        <tributavel>TRIBUTÁVEL</tributavel>
+        <descricao>LINHA ERP 10 - SERV. USINAGEM LEVE - MANUT. E MONT. DE ESTRUT. METALICAS</descricao>
+        <quantidade>387.0000</quantidade>
+        <valorUnitario>54.01</valorUnitario>
+        <valorTotal>20901.87</valorTotal>
+      </item>
+      <item nItem="2">
+        <tributavel>TRIBUTÁVEL</tributavel>
+        <descricao>LINHA ERP 20 - SERVICO DE FABRIC./RECUP. DE CALDEIRARIA LEVE - BOIAS SINALIZADORAS - MANUT. E MONT. DE ESTRUT. METALICAS</descricao>
+        <quantidade>354.7700</quantidade>
+        <valorUnitario>13.95</valorUnitario>
+        <valorTotal>4949.04</valorTotal>
+      </item>
+      <item nItem="3">
+        <tributavel>TRIBUTÁVEL</tributavel>
+        <descricao>LINHA ERP 30 - SERVICO DE FABRIC./RECUP. DE CALDEIRARIA MEDIA - BOIAS SINALIZADORAS - MANUT. E MONT. DE ESTRUT. METALICAS</descricao>
+        <quantidade>1066.0000</quantidade>
+        <valorUnitario>13.27</valorUnitario>
+        <valorTotal>14145.82</valorTotal>
+      </item>
+      <item nItem="4">
+        <tributavel>TRIBUTÁVEL</tributavel>
+        <descricao>LINHA ERP 40 - SERVICO DE FABRIC./RECUP. DE CALDEIRARIA PESADA - BOIAS SINALIZADORAS - MANUT. E MONT. DE ESTRUT. METALICAS</descricao>
+        <quantidade>10350.0800</quantidade>
+        <valorUnitario>12.86</valorUnitario>
+        <valorTotal>133102.03</valorTotal>
+      </item>
+      <item nItem="5">
+        <tributavel>TRIBUTÁVEL</tributavel>
+        <descricao>LINHA ERP 50 - SERVICO DE TESTE PNEUMATICO (ESTANQUEIDADE) - BOIAS SINALIZADORAS - MANUT. E MONT. DE ESTRUT. METALICAS</descricao>
+        <quantidade>2.0000</quantidade>
+        <valorUnitario>60.65</valorUnitario>
+        <valorTotal>121.30</valorTotal>
+      </item>
+      <item nItem="6">
+        <tributavel>TRIBUTÁVEL</tributavel>
+        <descricao>LINHA ERP 60 - SERVICO DE FABRIC./RECUP. DE CALDEIRARIA LEVE - CAIXAS DE GRAMPO VV04 - MANUT. E MONT. DE ESTRUT. METALICAS</descricao>
+        <quantidade>60.8000</quantidade>
+        <valorUnitario>9.99</valorUnitario>
+        <valorTotal>607.39</valorTotal>
+      </item>
+      <item nItem="7">
+        <tributavel>TRIBUTÁVEL</tributavel>
+        <descricao>LINHA ERP 70 - SERVICO DE FABRIC./RECUP. DE CALDEIRARIA PESADA - CAIXAS DE GRAMPO CURVA VV04 - MANUT. E MONT. DE ESTRUT. METALICAS</descricao>
+        <quantidade>1548.6000</quantidade>
+        <valorUnitario>5.78</valorUnitario>
+        <valorTotal>8950.91</valorTotal>
+      </item>
+      <item nItem="8">
+        <tributavel>TRIBUTÁVEL</tributavel>
+        <descricao>LINHA ERP 80 - SERVICO DE FABRIC./RECUP. DE CALDEIRARIA LEVE - CAIXAS DE GRAMPO VV05/06 - MANUT. E MONT. DE ESTRUT. METALICAS</descricao>
+        <quantidade>239.6000</quantidade>
+        <valorUnitario>5.10</valorUnitario>
+        <valorTotal>1221.96</valorTotal>
+      </item>
+      <item nItem="9">
+        <tributavel>TRIBUTÁVEL</tributavel>
+        <descricao>LINHA ERP 90 - SERVICO DE FABRIC./RECUP. DE CALDEIRARIA PESADA - CAIXAS DE GRAMPO CURVA VV05/06- MANUT. E MONT. DE ESTRUT. METALICAS</descricao>
+        <quantidade>2105.4000</quantidade>
+        <valorUnitario>2.47</valorUnitario>
+        <valorTotal>5200.34</valorTotal>
+      </item>
+      <item nItem="10">
+        <tributavel>TRIBUTÁVEL</tributavel>
+        <descricao>LINHA ERP 100 - SERVICO DE RECUPERACAO DE BORDA (LABIO) DE CACAMBA DE RECUPERADORA - MANUT. E MONT. DE ESTRUT. METALICAS</descricao>
+        <quantidade>2446.4000</quantidade>
+        <valorUnitario>11.86</valorUnitario>
+        <valorTotal>29014.30</valorTotal>
+      </item>
+      <item nItem="11">
+        <tributavel>TRIBUTÁVEL</tributavel>
+        <descricao>LINHA ERP 110 - SERVICO DE RECUPERACAO DE TUBO DE FIXACAO DE CACAMBA DE RECUPERADORA - MANUT. E MONT. DE ESTRUT. METALICAS</descricao>
+        <quantidade>311.3000</quantidade>
+        <valorUnitario>8.31</valorUnitario>
+        <valorTotal>2586.90</valorTotal>
+      </item>
+      <item nItem="12">
+        <tributavel>TRIBUTÁVEL</tributavel>
+        <descricao>LINHA ERP 120 - SERVICO DE RECUPERACAO DE LATERAL BANQUETADA DE CACAMBA DE RECUPERADORA - MANUT. E MONT. DE ESTRUT. METALICAS</descricao>
+        <quantidade>2800.6000</quantidade>
+        <valorUnitario>13.14</valorUnitario>
+        <valorTotal>36799.88</valorTotal>
+      </item>
+      <item nItem="13">
+        <tributavel>TRIBUTÁVEL</tributavel>
+        <descricao>LINHA ERP 130 - SERVICO DE RECUPERACAO DE SUPORTE DE FIXACAO DAS CUNHAS DE CACAMBA DE RECUPERADORA - MANUT. E MONT. DE ESTRUT. METALICAS</descricao>
+        <quantidade>630.3000</quantidade>
+        <valorUnitario>11.98</valorUnitario>
+        <valorTotal>7550.99</valorTotal>
+      </item>
+      <item nItem="14">
+        <tributavel>TRIBUTÁVEL</tributavel>
+        <descricao>LINHA ERP 140 - SERVICO DE MONTAGEM DOS DENTES ESCARIFICADORES COM SUPORTE DE CACAMBA DE RECUPERADORA - MANUT. E MONT. DE ESTRUT. METALICAS</descricao>
+        <quantidade>220.0000</quantidade>
+        <valorUnitario>6.44</valorUnitario>
+        <valorTotal>1416.80</valorTotal>
+      </item>
+      <item nItem="15">
+        <tributavel>TRIBUTÁVEL</tributavel>
+        <descricao>LINHA ERP 150 - SERVICO DE RECUPERACAO DE ESTRUTURAS DE CACAMBA DE RECUPERADORA - MANUT. E MONT. DE ESTRUT. METALICAS</descricao>
+        <quantidade>8913.3000</quantidade>
+        <valorUnitario>10.60</valorUnitario>
+        <valorTotal>94480.98</valorTotal>
+      </item>
+      <item nItem="16">
+        <tributavel>TRIBUTÁVEL</tributavel>
+        <descricao>LINHA ERP 160 - SERVICO DE RECUPERACAO DE ROLDANAS - MANUT. E MONT. DE ESTRUT. METALICAS</descricao>
+        <quantidade>6.0000</quantidade>
+        <valorUnitario>281.37</valorUnitario>
+        <valorTotal>1688.22</valorTotal>
+      </item>
+    </itensServico>
+    <totais>
+      <valotTotalNota>362738.73</valotTotalNota>
+      <valorTotalServico>217643.24</valorTotalServico>
+      <valorTotalDeducao>145095.49</valorTotalDeducao>
+      <valorTotalISS>10882.16</valorTotalISS>
+      <valorReducaoBC>0.00</valorReducaoBC>
+    </totais>
+    <impostosFederais>
+      <imposto nItem="1">
+        <codigoImposto>1</codigoImposto>
+        <descricaoImposto>PIS</descricaoImposto>
+        <tipo>1</tipo>
+        <aliquota>0.6500</aliquota>
+        <valorImposto>0.00</valorImposto>
+      </imposto>
+      <imposto nItem="2">
+        <codigoImposto>2</codigoImposto>
+        <descricaoImposto>COFINS</descricaoImposto>
+        <tipo>2</tipo>
+        <aliquota>3.0000</aliquota>
+        <valorImposto>0.00</valorImposto>
+      </imposto>
+      <imposto nItem="3">
+        <codigoImposto>3</codigoImposto>
+        <descricaoImposto>INSS</descricaoImposto>
+        <tipo>3</tipo>
+        <aliquota>11.0000</aliquota>
+        <valorImposto>19950.63</valorImposto>
+      </imposto>
+      <imposto nItem="4">
+        <codigoImposto>4</codigoImposto>
+        <descricaoImposto>IR</descricaoImposto>
+        <tipo>4</tipo>
+        <aliquota>1.0000</aliquota>
+        <valorImposto>0.00</valorImposto>
+      </imposto>
+      <imposto nItem="5">
+        <codigoImposto>5</codigoImposto>
+        <descricaoImposto>CSLL</descricaoImposto>
+        <tipo>5</tipo>
+        <aliquota>1.0000</aliquota>
+        <valorImposto>0.00</valorImposto>
+      </imposto>
+    </impostosFederais>
+  </detalhamentoNota>
+</nfse>

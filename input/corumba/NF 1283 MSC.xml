@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CompNfse xmlns="http://www.abrasf.org.br/nfse.xsd" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#">
+    <Nfse versao="2.01">
+        <InfNfse Id="11027402AOHX224E5IC80KJRFU5V74IP">
+            <Numero>1283</Numero>
+            <CodigoVerificacao>090T8LVDE</CodigoVerificacao>
+            <DataEmissao>2018-03-02T15:02:43</DataEmissao>
+            <OutrasInformacoes>Val. Aprox. Tributos:</OutrasInformacoes>
+            <ValoresNfse>
+                <BaseCalculo>76822.24</BaseCalculo>
+                <Aliquota>5.00</Aliquota>
+                <ValorIss>3841.11</ValorIss>
+                <ValorLiquidoNfse>63817.04</ValorLiquidoNfse>
+            </ValoresNfse>
+            <PrestadorServico>
+                <IdentificacaoPrestador>
+                    <CpfCnpj>
+                        <Cnpj>04236152000149</Cnpj>
+                    </CpfCnpj>
+                    <InscricaoMunicipal>1837800</InscricaoMunicipal>
+                </IdentificacaoPrestador>
+                <RazaoSocial>SANEAR ENGENHARIA E PROJETOS LTDA - EPP</RazaoSocial>
+                <NomeFantasia>SANEAR ENGENHARIA E PROJETOS LTDA</NomeFantasia>
+                <Endereco>
+                    <Endereco>  PORTO CARRERO</Endereco>
+                    <Numero>370</Numero>
+                    <Complemento></Complemento>
+                    <Bairro>CENTRO</Bairro>
+                    <CodigoMunicipio>5003207</CodigoMunicipio>
+                    <Uf>MS</Uf>
+                    <CodigoPais>1058</CodigoPais>
+                    <Cep>79303270</Cep>
+                </Endereco>
+                <Contato>
+                    <Telefone>0672317344</Telefone>
+                    <Email></Email>
+                </Contato>
+            </PrestadorServico>
+            <OrgaoGerador>
+                <CodigoMunicipio>5003207</CodigoMunicipio>
+                <Uf>MS</Uf>
+            </OrgaoGerador>
+            <DeclaracaoPrestacaoServico>
+                <InfDeclaracaoPrestacaoServico>
+                    <Competencia>2018-03-02</Competencia>
+                    <Servico>
+                        <Valores>
+                            <ValorServicos>76822.24</ValorServicos>
+                            <ValorDeducoes>0.00</ValorDeducoes>
+                            <ValorPis>499.34</ValorPis>
+                            <ValorCofins>2304.67</ValorCofins>
+                            <ValorInss>4823.64</ValorInss>
+                            <ValorIr>768.22</ValorIr>
+                            <ValorCsll>768.22</ValorCsll>
+                            <OutrasRetencoes>0.00</OutrasRetencoes>
+                            <ValorIss>3841.11</ValorIss>
+                            <Aliquota>5.00</Aliquota>
+                            <DescontoIncondicionado>0.00</DescontoIncondicionado>
+                            <DescontoCondicionado>0.00</DescontoCondicionado>
+                        </Valores>
+                        <IssRetido>1</IssRetido>
+                        <ResponsavelRetencao>1</ResponsavelRetencao>
+                        <ItemListaServico>07.09</ItemListaServico>
+                        <CodigoCnae>3811400</CodigoCnae>
+                        <CodigoTributacaoMunicipio>0000070000009</CodigoTributacaoMunicipio>
+                        <Discriminacao>Serviço de coleta e destinação de efluentes sanitários - Mina Santa Cruz-12.345,75 | Prestação de serviço de Operação dos Sistemas de Tratamento de água e efluentes sanitários e oleosos - Mina Santa Cruz-24.419,04 | Prestação de serviço de Operação e Manutenção dos Depósitos de Resíduos Sólidos e Compostagem de Resíduos Orgânicos - Mina Santa Cruz-27.633,76 | Serviços de fornecimento e higienização de banheiros quimicos-12.423,69 </Discriminacao>
+                        <CodigoMunicipio>5003207</CodigoMunicipio>
+                        <ExigibilidadeISS>1</ExigibilidadeISS>
+                        <MunicipioIncidencia>5003207</MunicipioIncidencia>
+                    </Servico>
+                    <Prestador>
+                        <CpfCnpj>
+                            <Cnpj>04236152000149</Cnpj>
+                        </CpfCnpj>
+                        <InscricaoMunicipal>001837800</InscricaoMunicipal>
+                    </Prestador>
+                    <Tomador>
+                        <IdentificacaoTomador>
+                            <CpfCnpj>
+<Cnpj>03327988000439</Cnpj>
+                            </CpfCnpj>
+                            <InscricaoMunicipal>2234400</InscricaoMunicipal>
+                        </IdentificacaoTomador>
+                        <RazaoSocial>MINERAÇÃO CORUMBAENSE REUNIDA S.A</RazaoSocial>
+                        <Endereco>
+                            <Endereco>RODOVIA MORRARIA SANTA CRUZ</Endereco>
+                            <Numero>S/N</Numero>
+                            <Complemento></Complemento>
+                            <Bairro>CENTRO</Bairro>
+                            <CodigoMunicipio>5003207</CodigoMunicipio>
+                            <Uf>MS</Uf>
+                            <Cep>79301000</Cep>
+                        </Endereco>
+                        <Contato>
+                            <Telefone>6732342379</Telefone>
+                            <Email>cleberson.braga@vale.com</Email>
+                        </Contato>
+                    </Tomador>
+                    <RegimeEspecialTributacao>0</RegimeEspecialTributacao>
+                    <OptanteSimplesNacional>2</OptanteSimplesNacional>
+                    <IncentivoFiscal>2</IncentivoFiscal>
+                </InfDeclaracaoPrestacaoServico>
+            </DeclaracaoPrestacaoServico>
+        </InfNfse>
+    </Nfse>
+</CompNfse>

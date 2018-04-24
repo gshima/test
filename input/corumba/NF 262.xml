@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LoteNotaFiscal xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://www.abrasf.org.br/nfse.xsd">
+    <CompNfse>
+        <ns3:Nfse versao="2.01">
+            <ns3:InfNfse Id="11028394YPPOUAXMWAK53ZE897YHG3P5">
+                <ns3:Numero>262</ns3:Numero>
+                <ns3:CodigoVerificacao>828HQL7WU</ns3:CodigoVerificacao>
+                <ns3:DataEmissao>2018-03-05T16:31:25</ns3:DataEmissao>
+                <ns3:OutrasInformacoes>Val. Aprox. Tributos:</ns3:OutrasInformacoes>
+                <ns3:ValoresNfse>
+                    <ns3:BaseCalculo>15375.02</ns3:BaseCalculo>
+                    <ns3:Aliquota>4.61</ns3:Aliquota>
+                    <ns3:ValorIss>708.79</ns3:ValorIss>
+                    <ns3:ValorLiquidoNfse>13779.71</ns3:ValorLiquidoNfse>
+                </ns3:ValoresNfse>
+                <ns3:PrestadorServico>
+                    <ns3:IdentificacaoPrestador>
+                        <ns3:CpfCnpj>
+                            <ns3:Cnpj>16962859000111</ns3:Cnpj>
+                        </ns3:CpfCnpj>
+                        <ns3:InscricaoMunicipal>2286200</ns3:InscricaoMunicipal>
+                    </ns3:IdentificacaoPrestador>
+                    <ns3:RazaoSocial>ZM CONSERVACAO E SERVICOS EIRELI - EPP</ns3:RazaoSocial>
+                    <ns3:NomeFantasia>ZM CONSERVAÇÃO E SERVIÇOS EIRELI</ns3:NomeFantasia>
+                    <ns3:Endereco>
+                        <ns3:Endereco>  PORTO CARRERO</ns3:Endereco>
+                        <ns3:Numero>370</ns3:Numero>
+                        <ns3:Complemento>SALA 1</ns3:Complemento>
+                        <ns3:Bairro>CENTRO</ns3:Bairro>
+                        <ns3:CodigoMunicipio>5003207</ns3:CodigoMunicipio>
+                        <ns3:Uf>MS</ns3:Uf>
+                        <ns3:CodigoPais>1058</ns3:CodigoPais>
+                        <ns3:Cep>79302110</ns3:Cep>
+                    </ns3:Endereco>
+                    <ns3:Contato>
+                        <ns3:Telefone></ns3:Telefone>
+                        <ns3:Email></ns3:Email>
+                    </ns3:Contato>
+                </ns3:PrestadorServico>
+                <ns3:OrgaoGerador>
+                    <ns3:CodigoMunicipio>5003207</ns3:CodigoMunicipio>
+                    <ns3:Uf>MS</ns3:Uf>
+                </ns3:OrgaoGerador>
+                <ns3:DeclaracaoPrestacaoServico>
+                    <ns3:InfDeclaracaoPrestacaoServico>
+                        <ns3:Competencia>2018-03-05</ns3:Competencia>
+                        <ns3:Servico>
+                            <ns3:Valores>
+<ns3:ValorServicos>15375.02</ns3:ValorServicos>
+<ns3:ValorDeducoes>0.00</ns3:ValorDeducoes>
+<ns3:ValorPis>0.00</ns3:ValorPis>
+<ns3:ValorCofins>0.00</ns3:ValorCofins>
+<ns3:ValorInss>886.52</ns3:ValorInss>
+<ns3:ValorIr>0.00</ns3:ValorIr>
+<ns3:ValorCsll>0.00</ns3:ValorCsll>
+<ns3:OutrasRetencoes>0.00</ns3:OutrasRetencoes>
+<ns3:ValorIss>708.79</ns3:ValorIss>
+<ns3:Aliquota>4.61</ns3:Aliquota>
+<ns3:DescontoIncondicionado>0.00</ns3:DescontoIncondicionado>
+<ns3:DescontoCondicionado>0.00</ns3:DescontoCondicionado>
+                            </ns3:Valores>
+                            <ns3:IssRetido>1</ns3:IssRetido>
+                            <ns3:ResponsavelRetencao>1</ns3:ResponsavelRetencao>
+                            <ns3:ItemListaServico>07.10</ns3:ItemListaServico>
+                            <ns3:CodigoCnae>8129000</ns3:CodigoCnae>
+                            <ns3:CodigoTributacaoMunicipio>0000070000010</ns3:CodigoTributacaoMunicipio>
+                            <ns3:Discriminacao>LIMPEZA DE CÓRREGO-15.375,02 </ns3:Discriminacao>
+                            <ns3:CodigoMunicipio>5003207</ns3:CodigoMunicipio>
+                            <ns3:ExigibilidadeISS>1</ns3:ExigibilidadeISS>
+                            <ns3:MunicipioIncidencia>5003207</ns3:MunicipioIncidencia>
+                        </ns3:Servico>
+                        <ns3:Prestador>
+                            <ns3:CpfCnpj>
+<ns3:Cnpj>16962859000111</ns3:Cnpj>
+                            </ns3:CpfCnpj>
+                            <ns3:InscricaoMunicipal>002286200</ns3:InscricaoMunicipal>
+                        </ns3:Prestador>
+                        <ns3:Tomador>
+                            <ns3:IdentificacaoTomador>
+<ns3:CpfCnpj>
+    <ns3:Cnpj>03327988000196</ns3:Cnpj>
+</ns3:CpfCnpj>
+<ns3:InscricaoMunicipal>0071401</ns3:InscricaoMunicipal>
+                            </ns3:IdentificacaoTomador>
+                            <ns3:RazaoSocial>MINERACAO CORUMBAENSE REUNIDA S/A</ns3:RazaoSocial>
+                            <ns3:Endereco>
+<ns3:Endereco>ROD. MORRO DO URUCUM</ns3:Endereco>
+<ns3:Numero>S/N</ns3:Numero>
+<ns3:Complemento></ns3:Complemento>
+<ns3:Bairro>ZONA RURAL</ns3:Bairro>
+<ns3:CodigoMunicipio>5003207</ns3:CodigoMunicipio>
+<ns3:Uf>MS</ns3:Uf>
+<ns3:Cep>79301970</ns3:Cep>
+                            </ns3:Endereco>
+                            <ns3:Contato>
+<ns3:Telefone>6732342340</ns3:Telefone>
+<ns3:Email>nfe.servico@vale.com</ns3:Email>
+                            </ns3:Contato>
+                        </ns3:Tomador>
+                        <ns3:RegimeEspecialTributacao>0</ns3:RegimeEspecialTributacao>
+                        <ns3:OptanteSimplesNacional>1</ns3:OptanteSimplesNacional>
+                        <ns3:IncentivoFiscal>2</ns3:IncentivoFiscal>
+                    </ns3:InfDeclaracaoPrestacaoServico>
+                </ns3:DeclaracaoPrestacaoServico>
+            </ns3:InfNfse>
+        </ns3:Nfse>
+    </CompNfse>
+</LoteNotaFiscal>

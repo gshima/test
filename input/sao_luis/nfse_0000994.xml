@@ -1,0 +1,122 @@
+<nfse xmlns="http://www.ctaconsult.com/nfse" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <codigoMunicipio>921</codigoMunicipio>
+  <dtEmissao>2018-03-02T18:34:54</dtEmissao>
+  <numeroNota>0000994</numeroNota>
+  <codigoVerificacao>F81D80516275FDB7425ABCDEFF36C144</codigoVerificacao>
+  <prestador>
+    <tipoPessoa>2</tipoPessoa>
+    <cnpj>04892580000120</cnpj>
+    <inscricaoMunicipal>64791001</inscricaoMunicipal>
+    <razaoSocial>PROJETA CONSULTORIA E SERVICOS LTDA - EPP</razaoSocial>
+    <endereco>
+      <logradouro>R A 1</logradouro>
+      <bairro>VILA VICENTE FIALHO</bairro>
+      <cep>65073210</cep>
+      <codigoMunipio>921</codigoMunipio>
+      <descricaoMunicipio>SAO LUIS</descricaoMunicipio>
+      <codigoEstado>MA</codigoEstado>
+      <descricaoEstado>MA</descricaoEstado>
+    </endereco>
+    <telefoneDdd>98</telefoneDdd>
+    <telefoneNumero>30844359</telefoneNumero>
+  </prestador>
+  <tomador>
+    <tipoPessoa>2</tipoPessoa>
+    <cnpj>33592510042400</cnpj>
+    <inscricaoMunicipal>13799008</inscricaoMunicipal>
+    <razaoSocial>VALE S. A.</razaoSocial>
+    <endereco>
+      <logradouro>AV DOS PORTUGUESES 0</logradouro>
+      <bairro>ITAQUI</bairro>
+      <cep>65085582</cep>
+      <codigoMunipio>921</codigoMunipio>
+      <descricaoMunicipio>SAO LUIS</descricaoMunicipio>
+      <codigoEstado>MA</codigoEstado>
+      <descricaoEstado>MA</descricaoEstado>
+    </endereco>
+    <email>jeovan.silva@vale.com</email>
+    <telefoneDdd>98</telefoneDdd>
+    <telefoneNumero>32184475</telefoneNumero>
+  </tomador>
+  <atividadeExecutada>
+    <codigoServico>0702</codigoServico>
+    <descricaoServico>EXECUCAO, POR ADMINISTRACAO, EMPREITADA OU SUBEMPREITADA, DE OBRAS DE CONSTRUCAO CIVIL, HIDRAULICA OU ELETRICA E DE OUTRAS OBRAS SEMELHANTES, INCLUSIVE SONDAGEM, PERFURACAO DE POCOS, ESCAVACAO, DRENAGEM E IRRIGACAO, TERRAPLANAGEM, PAVIMENTACAO, CONCRETAGEM E A INSTALACAO E MONTAGEM DE PRODUTOS, PECAS E EQUIPAMENTOS (EXCETO O FORNECIMENTO DE MERCADORIAS PRODUZIDAS PELO PRESTADOR DE SERVICOS FORA DO LOCAL DA PRESTACAO DOS SERVICOS, QUE FICA SUJEITO AO ICMS.</descricaoServico>
+    <codigoAtividade>431260000</codigoAtividade>
+    <descricaoAtividade>PERFURACOES E SONDAGENS</descricaoAtividade>
+    <localPrestacao>
+      <codigoEstado>MA</codigoEstado>
+      <descricaoEstado>MA</descricaoEstado>
+      <codigoMunipio>921</codigoMunipio>
+      <descricaoMunicipio>SAO LUIS</descricaoMunicipio>
+    </localPrestacao>
+    <tipoTributacao>TRIBUTÁVEL</tipoTributacao>
+    <tipoRecolhimento>RETIDO</tipoRecolhimento>
+    <aliquota>5.00</aliquota>
+  </atividadeExecutada>
+  <deducoes>
+    <tipo>5</tipo>
+    <mapa>
+      <itemMapa nItem="1">
+        <valorDecucao>14845.77</valorDecucao>
+      </itemMapa>
+    </mapa>
+        <percentual>40.00</percentual>
+        <valor>14845.77</valor>
+  </deducoes>
+  <detalhamentoNota>
+    <descricaoNota>PRESTAÇÃO DE SERVIÇOS DE SONDAGENS, TOPOGRÁFICOS E ESCANEAMENTO A LASER NO TERMINAL DA PONTA DA MADEIRA EM SÃO LUIS - MA / RF:6200646454 / CONTRATO: 5900008212 / PEDIDO: 4504207270 / ITEM: 20 / FRS: 1002524300 / MUNICÍPIO DE PRESTAÇÃO DE SERVIÇO: SÃO LUIS - MA / PRAZO DE PAGAMENTO: 30DD / FORMA DE PAGAMENTO: DEPOSITO BANCÁRIO / BANCO DO BRASIL / AGENCIA: 3649 - 8 / CONTA CORRENTE: 19916 - 8 / FONE: (98) 3311-4351</descricaoNota>
+    <itensServico>
+      <item nItem="1">
+        <tributavel>TRIBUTÁVEL</tributavel>
+        <descricao>PAVIMENTAÇÃO ASFALTICA</descricao>
+        <quantidade>1.0000</quantidade>
+        <valorUnitario>37114.42</valorUnitario>
+        <valorTotal>37114.42</valorTotal>
+      </item>
+    </itensServico>
+    <totais>
+      <valotTotalNota>37114.42</valotTotalNota>
+      <valorTotalServico>22268.65</valorTotalServico>
+      <valorTotalDeducao>14845.77</valorTotalDeducao>
+      <valorTotalISS>1113.43</valorTotalISS>
+      <valorReducaoBC>0.00</valorReducaoBC>
+    </totais>
+    <impostosFederais>
+      <imposto nItem="1">
+        <codigoImposto>1</codigoImposto>
+        <descricaoImposto>PIS</descricaoImposto>
+        <tipo>1</tipo>
+        <aliquota>0.0000</aliquota>
+        <valorImposto>0.00</valorImposto>
+      </imposto>
+      <imposto nItem="2">
+        <codigoImposto>2</codigoImposto>
+        <descricaoImposto>COFINS</descricaoImposto>
+        <tipo>2</tipo>
+        <aliquota>0.0000</aliquota>
+        <valorImposto>0.00</valorImposto>
+      </imposto>
+      <imposto nItem="3">
+        <codigoImposto>3</codigoImposto>
+        <descricaoImposto>INSS</descricaoImposto>
+        <tipo>3</tipo>
+        <aliquota>0.0000</aliquota>
+        <valorImposto>0.00</valorImposto>
+      </imposto>
+      <imposto nItem="4">
+        <codigoImposto>4</codigoImposto>
+        <descricaoImposto>IR</descricaoImposto>
+        <tipo>4</tipo>
+        <aliquota>0.0000</aliquota>
+        <valorImposto>0.00</valorImposto>
+      </imposto>
+      <imposto nItem="5">
+        <codigoImposto>5</codigoImposto>
+        <descricaoImposto>CSLL</descricaoImposto>
+        <tipo>5</tipo>
+        <aliquota>0.0000</aliquota>
+        <valorImposto>0.00</valorImposto>
+      </imposto>
+    </impostosFederais>
+  </detalhamentoNota>
+</nfse>

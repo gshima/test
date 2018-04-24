@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?><ConsultarNfseResposta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.abrasf.org.br/ABRASF/arquivos/nfse.xsd"><ListaNfse>
+<CompNfse><Nfse><InfNfse><Numero>3674</Numero><CodigoVerificacao>VVDL-5UC9</CodigoVerificacao><DataEmissao>2018-03-05T11:06:16</DataEmissao><NaturezaOperacao>4</NaturezaOperacao><OptanteSimplesNacional>2</OptanteSimplesNacional><IncentivadorCultural>2</IncentivadorCultural><Competencia>2018-03-05T00:00:00</Competencia><Servico><Valores><ValorServicos>32679.28</ValorServicos><ValorInss>3594.72</ValorInss><IssRetido>2</IssRetido><ValorLiquidoNfse>29084.56</ValorLiquidoNfse></Valores><ItemListaServico>1601</ItemListaServico><CodigoTributacaoMunicipio>87160105</CodigoTributacaoMunicipio><Discriminacao>Prestação de serviços de Medicina Ocupacional ¿ Motorista de ambulância, referente ao período de 20/01 a 20/02/2018
+RF: 6200648948; contrato Nº 4600018563; Pedido: 4504208476/00010; FRS: 1002526989 ¿ serviço prestado em Itaguaí
+
+Vencimento: 05/06/2018
+
+Total Bruto: R$32.679,28
+
+Total de INSS: R$3.594,72
+
+Total Líquido: R$29.084,56 
+
+IMUNIDADE E ISENÇÃO TRIBUTÁRIA, POR FORÇA DAS FUNDAMENTAÇÕES ABAIXO:
+
+ISS   -  Imunidade Tributária - Constituição Federal, art. 150, inciso VI, alínea  C.
+IRPJ - Imunidade Tributária - Constituição Federal - Art. 150, Inciso VI, alínea C
+COFINS - Isenção - MP 2.158 - 35/2001, art. 14.; inciso X;
+CSLL - Isenção - Lei 9.532/1997, art.15, Parágrafo 1°;
+PIS -        Folha de Pagamento - MP 2.158-35/2001, art.13; Inciso VI;</Discriminacao><CodigoMunicipio>3302007</CodigoMunicipio></Servico><PrestadorServico><IdentificacaoPrestador><Cnpj>03851171000112</Cnpj><InscricaoMunicipal>589241</InscricaoMunicipal></IdentificacaoPrestador><RazaoSocial>SERVICO SOCIAL DA INDUSTRIA SESI</RazaoSocial><NomeFantasia>DEPT REGIONAL DO EST DO RIO DE JAN</NomeFantasia><Endereco><Endereco>AVN GRACA ARANHA 1, LJA DEPSLJB DEPSANDS2 DEPS4 AO</Endereco><Numero>1</Numero><Complemento>LJA DEPSLJB DEPSANDS2 DEPS4 AO</Complemento><Bairro>CENTRO</Bairro><CodigoMunicipio>3304557</CodigoMunicipio><Uf>RJ</Uf><Cep>20030002</Cep></Endereco><Contato><Telefone>02125634455</Telefone></Contato></PrestadorServico><TomadorServico><IdentificacaoTomador><CpfCnpj><Cnpj>72372998000409</Cnpj></CpfCnpj></IdentificacaoTomador><RazaoSocial>COMPANHIA PORTUARIA BAIA DE SEPETIBA</RazaoSocial><Endereco><Endereco>RUA EUCLIDES DE OLIVEIRA FIGUEIREDO S/N</Endereco><Numero>S/N</Numero><Bairro>BRISA MAR</Bairro><CodigoMunicipio>3302007</CodigoMunicipio><Uf>RJ</Uf><Cep>23825410</Cep></Endereco></TomadorServico><OrgaoGerador><CodigoMunicipio>3304557</CodigoMunicipio><Uf>RJ</Uf></OrgaoGerador></InfNfse></Nfse></CompNfse>
+</ListaNfse></ConsultarNfseResposta>

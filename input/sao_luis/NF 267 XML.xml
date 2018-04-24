@@ -1,0 +1,119 @@
+<nfse xmlns="http://www.ctaconsult.com/nfse" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <codigoMunicipio>921</codigoMunicipio>
+  <dtEmissao>2018-03-01T11:45:17</dtEmissao>
+  <numeroNota>0000267</numeroNota>
+  <codigoVerificacao>60AE0AEBC7F33304D1A6D4B4A93B3AF2</codigoVerificacao>
+  <prestador>
+    <tipoPessoa>2</tipoPessoa>
+    <cnpj>05325014001090</cnpj>
+    <inscricaoMunicipal>58555029</inscricaoMunicipal>
+    <razaoSocial>MAKRO ENGENHARIA LTDA</razaoSocial>
+    <endereco>
+      <logradouro>AV ENGENHEIRO EMILIANO MACIEIRA 208 SALA: A;</logradouro>
+      <bairro>TIBIRI</bairro>
+      <cep>65095601</cep>
+      <codigoMunipio>921</codigoMunipio>
+      <descricaoMunicipio>SAO LUIS</descricaoMunicipio>
+      <codigoEstado>MA</codigoEstado>
+      <descricaoEstado>MA</descricaoEstado>
+    </endereco>
+    <email>enedina.oliveira@makroengenharia.com.br</email>
+    <telefoneDdd>98</telefoneDdd>
+    <telefoneNumero>32582005</telefoneNumero>
+  </prestador>
+  <tomador>
+    <tipoPessoa>2</tipoPessoa>
+    <cnpj>33592510037821</cnpj>
+    <inscricaoMunicipal>13799016</inscricaoMunicipal>
+    <razaoSocial>VALE S. A.</razaoSocial>
+    <endereco>
+      <logradouro>AV DOS PORTUGUESES 0</logradouro>
+      <bairro>ITAQUI</bairro>
+      <cep>65000000</cep>
+      <codigoMunipio>921</codigoMunipio>
+      <descricaoMunicipio>SAO LUIS</descricaoMunicipio>
+      <codigoEstado>MA</codigoEstado>
+      <descricaoEstado>MA</descricaoEstado>
+    </endereco>
+    <telefoneDdd>98</telefoneDdd>
+    <telefoneNumero>32164412</telefoneNumero>
+  </tomador>
+  <atividadeExecutada>
+    <codigoServico>1104</codigoServico>
+    <descricaoServico>ARMAZENAMENTO, DEPOSITO, CARGA, DESCARGA, ARRUMACAO E GUARDA DE BENS DE QUALQUER ESPECIE.</descricaoServico>
+    <codigoAtividade>521250000</codigoAtividade>
+    <descricaoAtividade>CARGA E DESCARGA</descricaoAtividade>
+    <localPrestacao>
+      <codigoEstado>MA</codigoEstado>
+      <descricaoEstado>MA</descricaoEstado>
+      <codigoMunipio>961</codigoMunipio>
+      <descricaoMunicipio>ACAILANDIA</descricaoMunicipio>
+    </localPrestacao>
+    <tipoTributacao>NÃO INCIDENTE NO MUNICÍPIO</tipoTributacao>
+    <tipoRecolhimento>RETIDO</tipoRecolhimento>
+    <aliquota>3.00</aliquota>
+  </atividadeExecutada>
+  <detalhamentoNota>
+    <descricaoNota>PRESTAÇÃO DE SERVIÇOS DE IÇAMENTO DE CARGAS, COM UTILIZAÇÃO DE CAMINHÃO MUNCK AO LONGO DA ESTRADA DE FERRO CARAJÁS – NA DIRETORIA DE GESTÃO INTEGRADA E INFRAESTRUTURA, PELA CONTRATADA À VALE, NO MUNICÍPIO DE AÇAILÂNDIA, NO ESTADO DO MARANHÃO, CONTRATO 4600024789 (6794), PEDIDO 4504207076/00020, FOLHA DE REGISTRO (FRS): 1002527515 E Nº RF 6200649073.
+LOCAÇÃO DE EQUIPAMENTOS: R$ 2.028,36
+CESSÃO DE MÃO-DE-OBRA: R$ 511,54
+VENCIMENTO: 31/03/2018
+RETENÇÃO DE INSS (11%) SOBRE O VALOR DE R$ 511,54 NO VALOR DE R$ 56,26
+DADOS BANCÁRIO: 
+BANCO SAFRA (Nº 422) AGÊNCIA: 0037. CONTA: 201911-1
+</descricaoNota>
+    <itensServico>
+      <item nItem="1">
+        <tributavel>TRIBUTÁVEL</tributavel>
+        <descricao>PRESTAÇÃO DE SERVIÇO</descricao>
+        <quantidade>1.0000</quantidade>
+        <valorUnitario>2539.90</valorUnitario>
+        <valorTotal>2539.90</valorTotal>
+      </item>
+    </itensServico>
+    <totais>
+      <valotTotalNota>2539.90</valotTotalNota>
+      <valorTotalServico>2539.90</valorTotalServico>
+      <valorTotalDeducao>0.00</valorTotalDeducao>
+      <valorTotalISS>76.20</valorTotalISS>
+      <valorReducaoBC>0.00</valorReducaoBC>
+    </totais>
+    <impostosFederais>
+      <imposto nItem="1">
+        <codigoImposto>1</codigoImposto>
+        <descricaoImposto>PIS</descricaoImposto>
+        <tipo>1</tipo>
+        <aliquota>0.0000</aliquota>
+        <valorImposto>0.00</valorImposto>
+      </imposto>
+      <imposto nItem="2">
+        <codigoImposto>2</codigoImposto>
+        <descricaoImposto>COFINS</descricaoImposto>
+        <tipo>2</tipo>
+        <aliquota>0.0000</aliquota>
+        <valorImposto>0.00</valorImposto>
+      </imposto>
+      <imposto nItem="3">
+        <codigoImposto>3</codigoImposto>
+        <descricaoImposto>INSS</descricaoImposto>
+        <tipo>3</tipo>
+        <aliquota>11.0000</aliquota>
+        <valorImposto>56.26</valorImposto>
+      </imposto>
+      <imposto nItem="4">
+        <codigoImposto>4</codigoImposto>
+        <descricaoImposto>IR</descricaoImposto>
+        <tipo>4</tipo>
+        <aliquota>0.0000</aliquota>
+        <valorImposto>0.00</valorImposto>
+      </imposto>
+      <imposto nItem="5">
+        <codigoImposto>5</codigoImposto>
+        <descricaoImposto>CSLL</descricaoImposto>
+        <tipo>5</tipo>
+        <aliquota>0.0000</aliquota>
+        <valorImposto>0.00</valorImposto>
+      </imposto>
+    </impostosFederais>
+  </detalhamentoNota>
+</nfse>
