@@ -51,8 +51,12 @@ extern int yydebug;
     BELEM_GERADOR_TAG = 261,
     BELEM_SERVICO_TAG = 262,
     BELEM_ISS_TAG = 263,
-    STRING = 264,
-    NUMERO = 265
+    PARAUAPEBAS_PRESTADOR_TAG = 264,
+    PARAUAPEBAS_GERADOR_TAG = 265,
+    PARAUAPEBAS_SERVICO_TAG = 266,
+    PARAUAPEBAS_ISS_TAG = 267,
+    STRING = 268,
+    NUMERO = 269
   };
 #endif
 /* Tokens.  */
@@ -62,8 +66,12 @@ extern int yydebug;
 #define BELEM_GERADOR_TAG 261
 #define BELEM_SERVICO_TAG 262
 #define BELEM_ISS_TAG 263
-#define STRING 264
-#define NUMERO 265
+#define PARAUAPEBAS_PRESTADOR_TAG 264
+#define PARAUAPEBAS_GERADOR_TAG 265
+#define PARAUAPEBAS_SERVICO_TAG 266
+#define PARAUAPEBAS_ISS_TAG 267
+#define STRING 268
+#define NUMERO 269
 
 /* Value type.  */
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
@@ -73,9 +81,9 @@ union YYSTYPE
 #line 22 "src/main.y" /* yacc.c:1909  */
 
     char* string;
-    float number;
+    //float number;
 
-#line 79 "src/y.tab.h" /* yacc.c:1909  */
+#line 87 "src/y.tab.h" /* yacc.c:1909  */
 };
 
 typedef union YYSTYPE YYSTYPE;
