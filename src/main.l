@@ -49,19 +49,39 @@ void yyerror(char *);
 
 (<[/]tomador>) { return SAOLUIS_GERADOR_FECHATAG;} // token da fecha tag tomador de Sao Luis
 
+(<Servico>) { /*printf("Entrei em ABRE prestador NOVA LIMA!\n");*/ return CIDADES_PRESTADOR_ABRETAG;} // token abre prestador para cidade NOVA LIMA
+
+(<[/]Servico>) { /*printf("Entrei em FECHA prestador NOVA LIMA!\n");*/ return CIDADES_PRESTADOR_FECHATAG;} // token fecha prestador para cidade NOVA LIMA
+
+(<TomadorServico>) { /*printf("Entrei em ABRE Gerador RIO DE JANEIRO!\n");*/ return CIDADES_GERADOR_ABRETAG;} // token abre gerador para RIO DE JANEIRO
+
+(<[/]TomadorServico>) { /*printf("Entrei em FECHA Gerador RIO DE JANEIRO!\n");*/ return CIDADES_GERADOR_FECHATAG;} // token fecha gerador para RIO DE JANEIRO
+
+(<(ns3:)?PrestadorServico>) { /*printf("Entrei em ABRE prestador CIDADES!\n");*/ return CIDADES_PRESTADOR_ABRETAG;}// token ABRE_PRESTADOR das cidades CORUMBA, JOAO MONLEVADE, RIO DE JANEIRO
+
+(<[/](ns3:)?PrestadorServico>) { /*printf("Entrei em FECHA prestador CIDADES!\n");*/ return CIDADES_PRESTADOR_FECHATAG;}// token da FECHA_PRESTADOR das cidades CORUMBA, JOAO MONLEVADE, RIO DE JANEIRO
+
+(<(ns3:)?OrgaoGerador>) { /*printf("Entrei em ABRE Gerador CIDADES!\n");*/ return CIDADES_GERADOR_ABRETAG;}// token ABRE_GERADOR das cidades CORUMBA, JOAO MONLEVADE, NOVA LIMA
+
+(<[/](ns3:)?OrgaoGerador>) { /*printf("Entrei em FECHA Gerador CIDADES!\n");*/ return CIDADES_GERADOR_FECHATAG;}// token FECHA_GERADOR das cidades CORUMBA, JOAO MONLEVADE, NOVA LIMA
+
+(<(ns3:)?CodigoMunicipio>) { /*printf("Entrei em ABRE CodigoMunicipio!\n");*/return CIDADES_MUNICIPIO_ABRETAG;} // token da tag ABRE_MUNICIPIO das cidades CORUMBA, JOAO MONLEVADE, NOVA LIMA, RIO DE JANEIRO
+
+(<[/](ns3:)?CodigoMunicipio>) { /*printf("Entrei em FECHA CodigoMunicipio!\n");*/return CIDADES_MUNICIPIO_FECHATAG;} // token da tag FECHA_MUNICIPIO das cidades CORUMBA, JOAO MONLEVADE, NOVA LIMA, RIO DE JANEIRO
+
 (<[/]*(ns3:)?ValorServicos>) { return CIDADES_SERVICO_TAG;} // token da tag valor de servico das cidades CORUMBA, JOAO MONLEVADE, NOVA LIMA, RIO DE JANEIRO
 
-(<[/]*(ns3:)?IssRetido>) { return CIDADES_ISS_TAG;} // token da tag valor de servico das cidades CORUMBA, JOAO MONLEVADE, NOVA LIMA, RIO DE JANEIRO
+(<[/]*(ns3:)?IssRetido>) { return CIDADES_ISS_TAG;} // token da tag valor de iss retido das cidades CORUMBA, JOAO MONLEVADE, NOVA LIMA, RIO DE JANEIRO
 
 
 
 [<][/][^>]+[>] {
-  //printf("fecha:%s\n", yytext);
+  printf("fecha:%s\n", yytext);
   return FECHATAG;
   } // token de fecha tag caso geral
 
 [<][^>]+[>] {
-  //printf("abre:%s\n", yytext);
+  printf("abre:%s\n", yytext);
   yylval.string = strdup(yytext); return ABRETAG;
   } // token de abre tag caso geral
 
@@ -80,8 +100,8 @@ void yyerror(char *);
                                         yylval.number= atof(yytext);*/
                                        //printf("numero:%.2f\n", yylval.number);
                                         return NUMERO; // token para numeros float e ints
+                          }
 
-                                      }
 
 [\t]* ;
 [\n]* ;

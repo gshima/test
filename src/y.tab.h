@@ -62,10 +62,16 @@ extern int yydebug;
     SAOLUIS_MUNICIPIO_TAG = 272,
     SAOLUIS_ISS_TAG = 273,
     SAOLUIS_SERVICO_TAG = 274,
-    CIDADES_SERVICO_TAG = 275,
-    CIDADES_ISS_TAG = 276,
-    STRING = 277,
-    NUMERO = 278
+    CIDADES_MUNICIPIO_ABRETAG = 275,
+    CIDADES_MUNICIPIO_FECHATAG = 276,
+    CIDADES_SERVICO_TAG = 277,
+    CIDADES_ISS_TAG = 278,
+    CIDADES_GERADOR_ABRETAG = 279,
+    CIDADES_GERADOR_FECHATAG = 280,
+    CIDADES_PRESTADOR_ABRETAG = 281,
+    CIDADES_PRESTADOR_FECHATAG = 282,
+    STRING = 283,
+    NUMERO = 284
   };
 #endif
 /* Tokens.  */
@@ -86,22 +92,28 @@ extern int yydebug;
 #define SAOLUIS_MUNICIPIO_TAG 272
 #define SAOLUIS_ISS_TAG 273
 #define SAOLUIS_SERVICO_TAG 274
-#define CIDADES_SERVICO_TAG 275
-#define CIDADES_ISS_TAG 276
-#define STRING 277
-#define NUMERO 278
+#define CIDADES_MUNICIPIO_ABRETAG 275
+#define CIDADES_MUNICIPIO_FECHATAG 276
+#define CIDADES_SERVICO_TAG 277
+#define CIDADES_ISS_TAG 278
+#define CIDADES_GERADOR_ABRETAG 279
+#define CIDADES_GERADOR_FECHATAG 280
+#define CIDADES_PRESTADOR_ABRETAG 281
+#define CIDADES_PRESTADOR_FECHATAG 282
+#define STRING 283
+#define NUMERO 284
 
 /* Value type.  */
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
 
 union YYSTYPE
 {
-#line 24 "src/main.y" /* yacc.c:1909  */
+#line 25 "src/main.y" /* yacc.c:1909  */
 
     char* string;
     //float number;
 
-#line 105 "src/y.tab.h" /* yacc.c:1909  */
+#line 117 "src/y.tab.h" /* yacc.c:1909  */
 };
 
 typedef union YYSTYPE YYSTYPE;

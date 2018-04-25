@@ -18,7 +18,8 @@ int cont = 0;
 %token BELEM_PRESTADOR_TAG BELEM_GERADOR_TAG BELEM_SERVICO_TAG BELEM_ISS_TAG // tokens para caso Belem
 %token PARAUAPEBAS_PRESTADOR_TAG PARAUAPEBAS_GERADOR_TAG PARAUAPEBAS_SERVICO_TAG PARAUAPEBAS_ISS_TAG //token para caso Parauapebas
 %token SAOLUIS_PRESTADOR_ABRETAG SAOLUIS_PRESTADOR_FECHATAG SAOLUIS_GERADOR_ABRETAG SAOLUIS_GERADOR_FECHATAG SAOLUIS_MUNICIPIO_TAG SAOLUIS_ISS_TAG SAOLUIS_SERVICO_TAG //token para caso Sao Luis
-%token CIDADES_SERVICO_TAG CIDADES_ISS_TAG
+%token CIDADES_MUNICIPIO_ABRETAG CIDADES_MUNICIPIO_FECHATAG CIDADES_SERVICO_TAG CIDADES_ISS_TAG // token para as cidades CORUMBA, JOAO MONLEVADE, NOVA LIMA, RIO DE JANEIRO
+%token CIDADES_GERADOR_ABRETAG CIDADES_GERADOR_FECHATAG CIDADES_PRESTADOR_ABRETAG CIDADES_PRESTADOR_FECHATAG // token para as cidades CORUMBA, JOAO MONLEVADE, NOVA LIMA, RIO DE JANEIRO
 
 %union
 {
@@ -61,6 +62,9 @@ TAG:
     | MUNICIPIO_SAOLUIS
     | SERVICO_SAOLUIS
     | ISS_SAOLUIS
+    | PRESTADOR_CIDADES
+    | GERADOR_CIDADES
+    | MUNICIPIO_CIDADES
     | SERVICO_CIDADES
     | ISS_CIDADES
     ;
@@ -142,7 +146,7 @@ MUNICIPIO_SAOLUIS:
         SAOLUIS_MUNICIPIO_TAG STRING SAOLUIS_MUNICIPIO_TAG {
           pilha[cont] = malloc(sizeof(char));
           strcpy(pilha[cont], $2);
-          printf("Empilhei o municipio: %s\n", pilha[cont]);
+          //printf("Empilhei o municipio: %s\n", pilha[cont]);
           cont++;
         }
 
@@ -159,6 +163,45 @@ ISS_SAOLUIS:
           };
 
 // Regras para as cidades: CORUMBA, JOAO MONLEVADE, NOVA LIMA, RIO DE JANEIRO
+
+PRESTADOR_CIDADES:
+        CIDADES_PRESTADOR_ABRETAG ELEMENTO CIDADES_PRESTADOR_FECHATAG {
+          //printf("FINALMENTE Entrei em tomador SAO LUIS!! cont = %d\n", cont);
+          if(cont > 0) {
+            cont--;
+            municipio_prestador = malloc(sizeof(char));
+            strcpy(municipio_prestador, pilha[cont]);
+            free(pilha[cont]);
+            //printf("Desempilhei e guardei o municipio gerador: %s\n", municipio_gerador);
+          }
+        }
+
+GERADOR_CIDADES:
+        CIDADES_GERADOR_ABRETAG ELEMENTO CIDADES_GERADOR_FECHATAG {
+          //printf("FINALMENTE Entrei em tomador SAO LUIS!! cont = %d\n", cont);
+          if(cont > 0) {
+            cont--;
+            municipio_gerador = malloc(sizeof(char));
+            strcpy(municipio_gerador, pilha[cont]);
+            free(pilha[cont]);
+            //printf("Desempilhei e guardei o municipio gerador: %s\n", municipio_gerador);
+          }
+        }
+
+MUNICIPIO_CIDADES:
+        CIDADES_MUNICIPIO_ABRETAG NUMERO CIDADES_MUNICIPIO_FECHATAG {
+          pilha[cont] = malloc(sizeof(char));
+          strcpy(pilha[cont], $2);
+          printf("Empilhei o municipio: %s\n", pilha[cont]);
+          cont++;
+        }
+        | CIDADES_MUNICIPIO_ABRETAG STRING CIDADES_MUNICIPIO_FECHATAG {
+          pilha[cont] = malloc(sizeof(char));
+          strcpy(pilha[cont], $2);
+          printf("Empilhei o municipio: %s\n", pilha[cont]);
+          cont++;
+        }
+
 SERVICO_CIDADES:
         CIDADES_SERVICO_TAG NUMERO CIDADES_SERVICO_TAG{
           valor_servico = malloc(sizeof(char));
