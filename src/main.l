@@ -31,16 +31,39 @@ void yyerror(char *);
 
 (<[/]*tsMunPtd>) { return PARAUAPEBAS_PRESTADOR_TAG;} // token da tag municipio gerador de Parauapebas
 
-(<[/]*tsVlrISSRet>) { return PARAUAPEBAS_ISS_TAG;} // token da tag do valor de servico de Parauapebas
+(<[/]*tsVlrISSRet>) { return PARAUAPEBAS_ISS_TAG;} // token da tag do valor de iss retido de Parauapebas
 
 (<[/]*tsVlrSvc>) { return PARAUAPEBAS_SERVICO_TAG;} // token da tag do valor de servico de Parauapebas
 
+(<[/]*valorTotalServico>) { return SAOLUIS_SERVICO_TAG;} // token da tag valor de servico de Sao Luis
+
+(<[/]*valorReducaoBC>) { return SAOLUIS_ISS_TAG;} // token da tag valor de servico de Sao Luis
+
+(<[/]*descricaoMunicipio>) { return SAOLUIS_MUNICIPIO_TAG;} // token da tag municipio de Sao Luis
+
+(<prestador>) { return SAOLUIS_PRESTADOR_ABRETAG;} // token da abre tag prestador de Sao Luis
+
+(<[/]prestador>) { return SAOLUIS_PRESTADOR_FECHATAG;} // token da fecha tag prestador de Sao Luis
+
+(<tomador>) { return SAOLUIS_GERADOR_ABRETAG;} // token da abre tag tomador de Sao Luis
+
+(<[/]tomador>) { return SAOLUIS_GERADOR_FECHATAG;} // token da fecha tag tomador de Sao Luis
+
+(<[/]*(ns3:)?ValorServicos>) { return CIDADES_SERVICO_TAG;} // token da tag valor de servico das cidades CORUMBA, JOAO MONLEVADE, NOVA LIMA, RIO DE JANEIRO
+
+(<[/]*(ns3:)?IssRetido>) { return CIDADES_ISS_TAG;} // token da tag valor de servico das cidades CORUMBA, JOAO MONLEVADE, NOVA LIMA, RIO DE JANEIRO
 
 
 
-[<][/][^>]+[>] { printf("fecha:%s\n", yytext);return FECHATAG; } // token de fecha tag caso geral
+[<][/][^>]+[>] {
+  //printf("fecha:%s\n", yytext);
+  return FECHATAG;
+  } // token de fecha tag caso geral
 
-[<][^>]+[>] { printf("abre:%s\n", yytext); yylval.string = strdup(yytext); return ABRETAG; } // token de abre tag caso geral
+[<][^>]+[>] {
+  //printf("abre:%s\n", yytext);
+  yylval.string = strdup(yytext); return ABRETAG;
+  } // token de abre tag caso geral
 
 [A-Za-z]+[ ]*[A-Za-z]*[ ]*[A-Za-z]* {// printf("string:%s\n", yytext);
                                         yylval.string = strdup(yytext);
