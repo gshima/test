@@ -1,5 +1,7 @@
-/* Nome: Mariane Tiemi Iguti RA: 147279
-   EA876 - Laboratório 3 - PythonListParser */
+/* Nome: Mariane Tiemi Iguti      RA: 147279
+   Nome: Gabriela Akemi Shima     RA: 135819
+
+   EA876 -Trabalho 01 */
 %{
 
 #include <stdio.h>

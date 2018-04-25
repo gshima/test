@@ -62,7 +62,7 @@
 
 
 /* Copy the first part of user declarations.  */
-#line 3 "src/main.y" /* yacc.c:339  */
+#line 5 "src/main.y" /* yacc.c:339  */
 
 
 #include <stdio.h>
@@ -174,7 +174,7 @@ extern int yydebug;
 
 union YYSTYPE
 {
-#line 25 "src/main.y" /* yacc.c:355  */
+#line 27 "src/main.y" /* yacc.c:355  */
 
     char* string;
     //float number;
@@ -496,11 +496,11 @@ static const yytype_uint8 yytranslate[] =
   /* YYRLINE[YYN] -- Source line where rule number YYN was defined.  */
 static const yytype_uint8 yyrline[] =
 {
-       0,    35,    35,    40,    44,    45,    46,    47,    48,    51,
-      52,    53,    54,    55,    56,    57,    58,    59,    60,    61,
-      62,    63,    64,    65,    66,    67,    68,    69,    74,    79,
-      84,    90,    98,   103,   109,   115,   123,   134,   146,   154,
-     160,   168,   180,   192,   198,   206,   212
+       0,    37,    37,    42,    46,    47,    48,    49,    50,    53,
+      54,    55,    56,    57,    58,    59,    60,    61,    62,    63,
+      64,    65,    66,    67,    68,    69,    70,    71,    76,    81,
+      86,    92,   100,   105,   111,   117,   125,   136,   148,   156,
+     162,   170,   182,   194,   200,   208,   214
 };
 #endif
 
@@ -1357,7 +1357,7 @@ yyreduce:
   switch (yyn)
     {
         case 2:
-#line 36 "src/main.y" /* yacc.c:1646  */
+#line 38 "src/main.y" /* yacc.c:1646  */
     {
           printf("=====================================\n");
           printf("[%s;%s;%s;%s]\n", municipio_gerador, municipio_prestador, valor_servico, valor_iss);
@@ -1366,7 +1366,7 @@ yyreduce:
     break;
 
   case 28:
-#line 74 "src/main.y" /* yacc.c:1646  */
+#line 76 "src/main.y" /* yacc.c:1646  */
     {
                municipio_prestador = malloc(sizeof(char));
                strcpy(municipio_prestador, (yyvsp[-1].string));
@@ -1375,7 +1375,7 @@ yyreduce:
     break;
 
   case 29:
-#line 79 "src/main.y" /* yacc.c:1646  */
+#line 81 "src/main.y" /* yacc.c:1646  */
     {
               municipio_gerador = malloc(sizeof(char));
               strcpy(municipio_gerador, (yyvsp[-1].string));
@@ -1384,7 +1384,7 @@ yyreduce:
     break;
 
   case 30:
-#line 84 "src/main.y" /* yacc.c:1646  */
+#line 86 "src/main.y" /* yacc.c:1646  */
     {
               valor_servico = malloc(sizeof(char));
               strcpy(valor_servico, (yyvsp[-1].string));
@@ -1393,7 +1393,7 @@ yyreduce:
     break;
 
   case 31:
-#line 90 "src/main.y" /* yacc.c:1646  */
+#line 92 "src/main.y" /* yacc.c:1646  */
     {
           valor_iss = malloc(sizeof(char));
           strcpy(valor_iss, (yyvsp[-1].string));
@@ -1402,7 +1402,7 @@ yyreduce:
     break;
 
   case 32:
-#line 98 "src/main.y" /* yacc.c:1646  */
+#line 100 "src/main.y" /* yacc.c:1646  */
     {
           municipio_prestador = malloc(sizeof(char));
           strcpy(municipio_prestador, (yyvsp[-1].string));
@@ -1411,7 +1411,7 @@ yyreduce:
     break;
 
   case 33:
-#line 103 "src/main.y" /* yacc.c:1646  */
+#line 105 "src/main.y" /* yacc.c:1646  */
     {
             municipio_gerador = malloc(sizeof(char));
             strcpy(municipio_gerador, (yyvsp[-1].string));
@@ -1420,7 +1420,7 @@ yyreduce:
     break;
 
   case 34:
-#line 109 "src/main.y" /* yacc.c:1646  */
+#line 111 "src/main.y" /* yacc.c:1646  */
     {
           valor_servico = malloc(sizeof(char));
           strcpy(valor_servico, (yyvsp[-1].string));
@@ -1429,7 +1429,7 @@ yyreduce:
     break;
 
   case 35:
-#line 115 "src/main.y" /* yacc.c:1646  */
+#line 117 "src/main.y" /* yacc.c:1646  */
     {
           valor_iss = malloc(sizeof(char));
           strcpy(valor_iss, (yyvsp[-1].string));
@@ -1438,7 +1438,7 @@ yyreduce:
     break;
 
   case 36:
-#line 123 "src/main.y" /* yacc.c:1646  */
+#line 125 "src/main.y" /* yacc.c:1646  */
     {
           if(cont > 0) {
             cont--;
@@ -1452,7 +1452,7 @@ yyreduce:
     break;
 
   case 37:
-#line 134 "src/main.y" /* yacc.c:1646  */
+#line 136 "src/main.y" /* yacc.c:1646  */
     {
           //printf("FINALMENTE Entrei em tomador SAO LUIS!! cont = %d\n", cont);
           if(cont > 0) {
@@ -1467,7 +1467,7 @@ yyreduce:
     break;
 
   case 38:
-#line 146 "src/main.y" /* yacc.c:1646  */
+#line 148 "src/main.y" /* yacc.c:1646  */
     {
           pilha[cont] = malloc(sizeof(char));
           strcpy(pilha[cont], (yyvsp[-1].string));
@@ -1478,7 +1478,7 @@ yyreduce:
     break;
 
   case 39:
-#line 154 "src/main.y" /* yacc.c:1646  */
+#line 156 "src/main.y" /* yacc.c:1646  */
     {
           valor_servico = malloc(sizeof(char));
           strcpy(valor_servico, (yyvsp[-1].string));
@@ -1487,7 +1487,7 @@ yyreduce:
     break;
 
   case 40:
-#line 160 "src/main.y" /* yacc.c:1646  */
+#line 162 "src/main.y" /* yacc.c:1646  */
     {
             valor_iss = malloc(sizeof(char));
             strcpy(valor_iss, (yyvsp[-1].string));
@@ -1496,7 +1496,7 @@ yyreduce:
     break;
 
   case 41:
-#line 168 "src/main.y" /* yacc.c:1646  */
+#line 170 "src/main.y" /* yacc.c:1646  */
     {
           //printf("FINALMENTE Entrei em tomador SAO LUIS!! cont = %d\n", cont);
           if(cont > 0) {
@@ -1511,7 +1511,7 @@ yyreduce:
     break;
 
   case 42:
-#line 180 "src/main.y" /* yacc.c:1646  */
+#line 182 "src/main.y" /* yacc.c:1646  */
     {
           //printf("FINALMENTE Entrei em tomador SAO LUIS!! cont = %d\n", cont);
           if(cont > 0) {
@@ -1526,7 +1526,7 @@ yyreduce:
     break;
 
   case 43:
-#line 192 "src/main.y" /* yacc.c:1646  */
+#line 194 "src/main.y" /* yacc.c:1646  */
     {
           pilha[cont] = malloc(sizeof(char));
           strcpy(pilha[cont], (yyvsp[-1].string));
@@ -1537,7 +1537,7 @@ yyreduce:
     break;
 
   case 44:
-#line 198 "src/main.y" /* yacc.c:1646  */
+#line 200 "src/main.y" /* yacc.c:1646  */
     {
           pilha[cont] = malloc(sizeof(char));
           strcpy(pilha[cont], (yyvsp[-1].string));
@@ -1548,7 +1548,7 @@ yyreduce:
     break;
 
   case 45:
-#line 206 "src/main.y" /* yacc.c:1646  */
+#line 208 "src/main.y" /* yacc.c:1646  */
     {
           valor_servico = malloc(sizeof(char));
           strcpy(valor_servico, (yyvsp[-1].string));
@@ -1557,7 +1557,7 @@ yyreduce:
     break;
 
   case 46:
-#line 212 "src/main.y" /* yacc.c:1646  */
+#line 214 "src/main.y" /* yacc.c:1646  */
     {
             valor_iss = malloc(sizeof(char));
             strcpy(valor_iss, (yyvsp[-1].string));
@@ -1794,7 +1794,7 @@ yyreturn:
 #endif
   return yyresult;
 }
-#line 219 "src/main.y" /* yacc.c:1906  */
+#line 221 "src/main.y" /* yacc.c:1906  */
 
 //OLAR EU COMITO?
 //OLAR PQ VOCE N ESTA COMITANDO???

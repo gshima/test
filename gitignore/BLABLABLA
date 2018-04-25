@@ -1,0 +1,38 @@
+PRESTADOR_CIDADES:
+        CIDADES_PRESTADOR_ABRETAG ELEMENTO CIDADES_PRESTADOR_FECHATAG {
+          if(cont > 0) {
+            cont--;
+            municipio_prestador = malloc(sizeof(char));
+            strcpy(municipio_prestador, pilha[cont]);
+            free(pilha[cont]);
+            //printf("Desempilhei e guardei o municipio prestador: %s\n", municipio_prestador);
+          }
+        }
+
+GERADOR_CIDADES:
+        CIDADES_GERADOR_ABRETAG ELEMENTO CIDADES_GERADOR_FECHATAG {
+          //printf("FINALMENTE Entrei em tomador SAO LUIS!! cont = %d\n", cont);
+          if(cont > 0) {
+            cont--;
+            municipio_gerador = malloc(sizeof(char));
+            strcpy(municipio_gerador, pilha[cont]);
+            free(pilha[cont]);
+            //printf("Desempilhei e guardei o municipio gerador: %s\n", municipio_gerador);
+          }
+        }
+
+        %token CIDADES_PRESTADOR_ABRETAG CIDADES_PRESTADOR_FECHA_TAG CIDADES_GERADOR_ABRE TAG CIDADES_GERADOR_FECHATAG //token de GERADOR e PRESTADOR para as cidades CORUMBA, JOAO MONLEVADE, NOVA LIMA, RIO DE JANEIRO
+
+        (<PrestadorServico>) { return CIDADES_PRESTADOR_ABRETAG;} // token da abre tag prestador das cidades CORUMBA, JOAO MONLEVADE, NOVA LIMA, RIO DE JANEIRO
+
+        (<[/]PrestadorServico>) { return CIDADES_PRESTADOR_FECHATAG;} // token da fecha tag prestador das cidades CORUMBA, JOAO MONLEVADE, NOVA LIMA, RIO DE JANEIRO
+
+        (<(ns3:)?OrgaoGerador>) { printf("Entrei em ABRE Gerador CIDADES!\n");return CIDADES_GERADOR_ABRETAG;} // token da abre tag tomador das cidades CORUMBA, JOAO MONLEVADE, NOVA LIMA, RIO DE JANEIRO
+
+        (<[/](ns3:)?OrgaoGerador>) { printf("Entrei em FECHA Gerador CIDADES!\n");return CIDADES_GERADOR_FECHATAG;} // token da fecha tag tomador das cidades CORUMBA, JOAO MONLEVADE, NOVA LIMA, RIO DE JANEIRO
+
+<ns3:CodigoMunicipio>5003207</ns3:CodigoMunicipio>
+<ns3:CodigoMunicipio>LALALA lalal LALALA</ns3:CodigoMunicipio>
+
+<CodigoMunicipio>5003207</CodigoMunicipio>
+<CodigoMunicipio>LALALA lalal LALALA</CodigoMunicipio>
